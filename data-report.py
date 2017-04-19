@@ -10,7 +10,7 @@ totalTickets = len(data.values())
 for event in data.values():
     for game in event["games"].values():
         totalGames += 1
-        if len(game["outcomes"]) != 0:
+        if game.has_key("outcomes") and len(game["outcomes"]) != 0:
             totalCompleteGames += 1
 
 print "Total Tickets: ", totalTickets

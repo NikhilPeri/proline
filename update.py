@@ -75,8 +75,7 @@ for eventResult in results:
             if not(data[eventId]["games"].has_key(gameId)):
                 break
 
-            if not isinstance(data[eventId]["games"][gameId]["outcomes"], list):
-                data[eventId]["games"][gameId]["outcomes"] = []
+            data[eventId]["games"][gameId]["outcomes"] = []
 
             updated = False
             if outcome["vplus"] is not None:
