@@ -7,12 +7,12 @@
 * monitor convergence of data set
 * Simulate stratagies over historical data set
 
-##### Collect Data
+#### Collect Data
 The `update.py` script hits the following two OLG endpoints to fetch payouts and outcomes:
 
-** payouts ->** proline.ca/olg-proline-services/rest/api/proline/events/all.jsonp?callback=_jqjsp&<timenow>
+** payouts ->** proline.ca/olg-proline-services/rest/api/proline/events/all.jsonp?callback=_jqjsp&__timenow__
 
-** outcomes ->** proline.ca/olg-proline-services/rest/api/proline/results/all.jsonp?callback=_jqjsp&<timenow>
+** outcomes ->** proline.ca/olg-proline-services/rest/api/proline/results/all.jsonp?callback=_jqjsp&__timenow__
 
 This data is collected daily and stored in the following json format:
 ```
