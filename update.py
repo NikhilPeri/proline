@@ -69,21 +69,24 @@ for eventResult in results:
     for gameResult in eventResult.get("results"):
         gameId = gameResult.get("id")
         status = gameResult["status"]
-        if status["closed"] and not(status["suspended"] or status["cancelled"]):
+
+        if status["closed"] and not(status["cancelled"] or status["suspended"]):
             outcome = gameResult["odds"]
+            if not(data[eventId]["games"].has_key(gameId)):
+                break
             #visitor wins
-            if outcome["v+"]:
-                data[eventId]["games"]["outcomes"].push("v+")
-            if outcome["v"]:
-                data[eventId]["games"]["outcomes"].push("v")
+            if outcome["v+"] is not None:
+                data[eventId]["games"][gameId]["outcomes"].push("v+")
+            if outcome["v"] is not None:
+                data[eventId]["games"][gameId]["outcomes"].push("v")
             #home wins
-            if outcome["h+"]:
-                data[eventId]["games"]["outcomes"].push("h+")
-            if outcome["h"]:
-                data[eventId]["games"]["outcomes"].push("h")
+            if outcome["h+"] is not None:
+                data[eventId]["games"][gameId]["outcomes"].push("h+")
+            if outcome["h"] is not None:
+                data[eventId]["games"][gameId]["outcomes"].push("h")
             #tie game
-            if outcome["t"]:
-                ddata[eventId]["games"]["outcomes"].push("h")
+            if outcome["t"] is not None:
+                ddata[eventId]["games"][gameId]["outcomes"].push("h")
 
             eventsUpdated += 1
 
