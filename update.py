@@ -40,6 +40,7 @@ for event in events:
             data[eventId]["games"][gameId]["home"] = game.get("homeName")
             data[eventId]["games"][gameId]["visitor"] = game.get("visitorName")
             data[eventId]["games"][gameId]["sport"] = game.get("sport")
+            data[eventId]["games"][gameId]["cutoffDate"] = game.get("cutoffDate")
             data[eventId]["games"][gameId]["outcomes"] = []
 
             #odds
@@ -58,6 +59,7 @@ response = urllib.urlopen(OLG_RESULTS_ENDPOINT + "&_" + str(int(time.time()*1000
 response = response.replace('_jqjsp(', '', 1)
 response = response.replace(');', '', 1)
 
+print response
 results = json.loads(response).get("response").get("results").get("resultList")
 
 eventsUpdated = 0
@@ -68,13 +70,9 @@ for eventResult in results:
 
     for gameResult in eventResult.get("results"):
         gameId = gameResult.get("id")
-        status = gameResult["status"]
 
-        if not(status["cancelled"] or status["suspended"]):
+        if data[eventId]["games"].has_key(gameId):
             outcome = gameResult["odds"]
-            if not(data[eventId]["games"].has_key(gameId)):
-                break
-
             data[eventId]["games"][gameId]["outcomes"] = []
 
             updated = False

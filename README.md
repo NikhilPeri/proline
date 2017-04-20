@@ -21,6 +21,7 @@ This data is collected daily and stored in the following json format:
     "date": <epochDate>,
     "games": {
       <gameID>: {
+        "cutoffDate", <last day to wager>,
         "sport": <sportName>,
         "visitor": <visitor team>,
         "home": <home team>,
