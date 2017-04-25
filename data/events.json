@@ -5,116 +5,121 @@
       "24": {
         "v": "1.9", 
         "cutoffDate": "2017-04-20 23:59:00.0", 
-        "v+": null, 
-        "outcomes": [], 
-        "h+": null, 
-        "visitor": "MARSEILLE", 
-        "t": "3.0", 
         "h": "3.4", 
+        "v+": null, 
+        "outcomes": [
+          "t"
+        ], 
+        "h+": null, 
+        "t": "3.0", 
+        "visitor": "MARSEILLE", 
         "home": "AS NANCY", 
         "sport": "SCR"
       }, 
       "20": {
         "v": "4.0", 
         "cutoffDate": "2017-04-20 15:00:00.0", 
+        "h": "1.7", 
         "v+": null, 
         "outcomes": [
           "h"
         ], 
         "h+": null, 
-        "visitor": "AJAX", 
         "t": "3.2", 
-        "h": "1.7", 
+        "visitor": "AJAX", 
         "home": "SCHALKE", 
         "sport": "SCR"
       }, 
       "21": {
         "v": "2.7", 
         "cutoffDate": "2017-04-20 15:00:00.0", 
+        "h": "2.4", 
         "v+": null, 
         "outcomes": [
           "t"
         ], 
         "h+": null, 
-        "visitor": "CELTA DE VIGO", 
         "t": "2.8", 
-        "h": "2.4", 
+        "visitor": "CELTA DE VIGO", 
         "home": "GENK", 
         "sport": "SCR"
       }, 
       "22": {
         "v": "9.9", 
         "cutoffDate": "2017-04-20 15:00:00.0", 
+        "h": "1.1", 
         "v+": null, 
         "outcomes": [
           "t"
         ], 
         "h+": null, 
-        "visitor": "ANDERLECHT", 
         "t": "6.0", 
-        "h": "1.1", 
+        "visitor": "ANDERLECHT", 
         "home": "MANCHESTER UTD", 
         "sport": "SCR"
       }, 
       "23": {
         "v": "2.0", 
         "cutoffDate": "2017-04-20 23:59:00.0", 
-        "v+": null, 
-        "outcomes": [], 
-        "h+": null, 
-        "visitor": "TSG 1899 HOFFENHEIM", 
-        "t": "3.0", 
         "h": "3.2", 
+        "v+": null, 
+        "outcomes": [
+          "t"
+        ], 
+        "h+": null, 
+        "t": "3.0", 
+        "visitor": "TSG 1899 HOFFENHEIM", 
         "home": "FC KOLN", 
         "sport": "SCR"
       }, 
       "1": {
         "v": "2.2", 
         "cutoffDate": "2017-04-20 19:00:00.0", 
+        "h": "1.45", 
         "v+": "3.0", 
         "outcomes": [
           "v"
         ], 
         "h+": "1.9", 
-        "visitor": "NEW YORK-R", 
         "t": null, 
-        "h": "1.45", 
+        "visitor": "NEW YORK-R", 
         "home": "MONTREAL", 
         "sport": "HKY"
       }, 
       "3": {
         "v": "1.85", 
         "cutoffDate": "2017-04-20 20:00:00.0", 
+        "h": "1.65", 
         "v+": "2.6", 
         "outcomes": [
           "h+", 
           "h"
         ], 
         "h+": "2.3", 
-        "visitor": "CHICAGO", 
         "t": null, 
-        "h": "1.65", 
+        "visitor": "CHICAGO", 
         "home": "NASHVILLE", 
         "sport": "HKY"
       }, 
       "2": {
         "v": "2.5", 
         "cutoffDate": "2017-04-20 19:00:00.0", 
+        "h": "1.35", 
         "v+": "3.3", 
         "outcomes": [
           "h+", 
           "h"
         ], 
         "h+": "1.7", 
-        "visitor": "COLUMBUS", 
         "t": null, 
-        "h": "1.35", 
+        "visitor": "COLUMBUS", 
         "home": "PITTSBURGH", 
         "sport": "HKY"
       }, 
       "5": {
         "v": "1.5", 
         "cutoffDate": "2017-04-20 12:30:00.0", 
+        "h": "2.05", 
         "v+": "1.95", 
         "outcomes": [
           "v+", 
@@ -122,216 +127,215 @@
           "t"
         ], 
         "h+": "2.7", 
-        "visitor": "BOSTON", 
         "t": "2.25", 
-        "h": "2.05", 
+        "visitor": "BOSTON", 
         "home": "TORONTO", 
         "sport": "BBL"
       }, 
       "4": {
         "v": "2.1", 
         "cutoffDate": "2017-04-20 22:30:00.0", 
+        "h": "1.5", 
         "v+": "2.9", 
         "outcomes": [
           "h"
         ], 
         "h+": "2.0", 
-        "visitor": "SAN JOSE", 
         "t": null, 
-        "h": "1.5", 
+        "visitor": "SAN JOSE", 
         "home": "EDMONTON", 
         "sport": "HKY"
       }, 
       "7": {
         "v": "1.75", 
         "cutoffDate": "2017-04-20 13:00:00.0", 
+        "h": "1.65", 
         "v+": "2.4", 
         "outcomes": [
           "h+", 
           "h"
         ], 
         "h+": "2.1", 
-        "visitor": "DETROIT", 
         "t": "2.5", 
-        "h": "1.65", 
+        "visitor": "DETROIT", 
         "home": "TAMPA BAY", 
         "sport": "BBL"
       }, 
       "9": {
         "v": "1.6", 
         "cutoffDate": "2017-04-20 19:00:00.0", 
+        "h": "1.8", 
         "v+": "2.0", 
         "outcomes": [
           "v", 
           "t"
         ], 
         "h+": "2.5", 
-        "visitor": "BALTIMORE", 
         "t": "2.5", 
-        "h": "1.8", 
+        "visitor": "BALTIMORE", 
         "home": "CINCINNATI", 
         "sport": "BBL"
       }, 
       "8": {
         "v": "2.2", 
         "cutoffDate": "2017-04-20 14:00:00.0", 
+        "h": "1.4", 
         "v+": "2.8", 
         "outcomes": [
           "h", 
           "t"
         ], 
         "h+": "1.8", 
-        "visitor": "LA ANAHEIM", 
         "t": "2.7", 
-        "h": "1.4", 
+        "visitor": "LA ANAHEIM", 
         "home": "HOUSTON", 
         "sport": "BBL"
       }, 
       "11": {
         "v": "1.35", 
         "cutoffDate": "2017-04-20 19:30:00.0", 
+        "h": "2.35", 
         "v+": "1.75", 
         "outcomes": [
           "v", 
           "t"
         ], 
         "h+": "3.1", 
-        "visitor": "WASHINGTON", 
         "t": "2.4", 
-        "h": "2.35", 
+        "visitor": "WASHINGTON", 
         "home": "ATLANTA", 
         "sport": "BBL"
       }, 
       "10": {
         "v": "2.35", 
         "cutoffDate": "2017-04-20 19:00:00.0", 
+        "h": "1.35", 
         "v+": "3.1", 
         "outcomes": [
           "v+", 
           "v"
         ], 
         "h+": "1.75", 
-        "visitor": "PHILADELPHIA", 
         "t": "2.4", 
-        "h": "1.35", 
+        "visitor": "PHILADELPHIA", 
         "home": "NEW YORK-M", 
         "sport": "BBL"
       }, 
       "13": {
         "v": "1.55", 
         "cutoffDate": "2017-04-20 20:00:00.0", 
+        "h": "1.9", 
         "v+": "1.95", 
         "outcomes": [
           "h+", 
           "h"
         ], 
         "h+": "2.6", 
-        "visitor": "ST. LOUIS", 
         "t": "2.6", 
-        "h": "1.9", 
+        "visitor": "ST. LOUIS", 
         "home": "MILWAUKEE", 
         "sport": "BBL"
       }, 
       "12": {
         "v": "1.6", 
         "cutoffDate": "2017-04-20 20:00:00.0", 
+        "h": "1.8", 
         "v+": "2.0", 
         "outcomes": [
           "h", 
           "t"
         ], 
         "h+": "2.5", 
-        "visitor": "KANSAS CITY", 
         "t": "2.5", 
-        "h": "1.8", 
+        "visitor": "KANSAS CITY", 
         "home": "TEXAS", 
         "sport": "BBL"
       }, 
       "15": {
         "v": "1.4", 
         "cutoffDate": "2017-04-20 22:00:00.0", 
+        "h": "2.2", 
         "v+": "1.8", 
         "outcomes": [
           "h+", 
           "h"
         ], 
         "h+": "2.8", 
-        "visitor": "SEATTLE", 
         "t": "2.7", 
-        "h": "2.2", 
+        "visitor": "SEATTLE", 
         "home": "OAKLAND", 
         "sport": "BBL"
       }, 
       "14": {
         "v": "1.6", 
         "cutoffDate": "2017-04-20 21:00:00.0", 
+        "h": "1.85", 
         "v+": "2.1", 
         "outcomes": [
           "h+", 
           "h"
         ], 
         "h+": "2.6", 
-        "visitor": "ARIZONA", 
         "t": "2.15", 
-        "h": "1.85", 
+        "visitor": "ARIZONA", 
         "home": "SAN DIEGO", 
         "sport": "BBL"
       }, 
       "17": {
         "v": "2.6", 
         "cutoffDate": "2017-04-20 20:00:00.0", 
+        "h": "2.45", 
         "v+": "3.6", 
         "outcomes": [
           "h+", 
           "h"
         ], 
         "h+": "3.15", 
-        "visitor": "TORONTO", 
         "t": "2.1", 
-        "h": "2.45", 
+        "visitor": "TORONTO", 
         "home": "MILWAUKEE", 
         "sport": "BKL"
       }, 
       "16": {
         "v": "2.3", 
         "cutoffDate": "2017-04-20 19:00:00.0", 
+        "h": "3.05", 
         "v+": "2.9", 
         "outcomes": [
           "t"
         ], 
         "h+": "3.75", 
-        "visitor": "CLEVELAND", 
         "t": "2.25", 
-        "h": "3.05", 
+        "visitor": "CLEVELAND", 
         "home": "INDIANA", 
         "sport": "BKL"
       }, 
       "19": {
         "v": "2.6", 
         "cutoffDate": "2017-04-20 15:00:00.0", 
+        "h": "2.5", 
         "v+": null, 
         "outcomes": [
           "h"
         ], 
         "h+": null, 
-        "visitor": "LYON", 
         "t": "2.8", 
-        "h": "2.5", 
+        "visitor": "LYON", 
         "home": "BESIKTAS", 
         "sport": "SCR"
       }, 
       "18": {
         "v": "2.0", 
         "cutoffDate": "2017-04-20 21:30:00.0", 
+        "h": "3.2", 
         "v+": "2.6", 
         "outcomes": [
           "h+", 
           "h"
         ], 
         "h+": "3.9", 
-        "visitor": "SAN ANTONIO", 
         "t": "2.5", 
-        "h": "3.2", 
+        "visitor": "SAN ANTONIO", 
         "home": "MEMPHIS", 
         "sport": "BKL"
       }
@@ -340,484 +344,1131 @@
   "2533": {
     "date": 1492747200000, 
     "games": {
-      "54": {
-        "v": "2.0", 
-        "cutoffDate": "2017-04-22 10:00:00.0", 
+      "58": {
+        "v": "2.6", 
+        "h": "2.5", 
         "v+": null, 
-        "outcomes": [], 
+        "outcomes": [
+          "h"
+        ], 
         "h+": null, 
-        "h": "3.2", 
+        "visitor": "TOTTENHAM HOT", 
+        "t": "2.8", 
+        "cutoffDate": "2017-04-22 12:15:00.0", 
+        "home": "CHELSEA", 
+        "sport": "SCR"
+      }, 
+      "56": {
+        "v": "9.95", 
+        "h": "1.05", 
+        "v+": null, 
+        "outcomes": [
+          "h"
+        ], 
+        "h+": null, 
+        "visitor": "MONTPELLIER", 
+        "t": "6.25", 
+        "cutoffDate": "2017-04-22 11:00:00.0", 
+        "home": "PARIS ST. GERMAIN", 
+        "sport": "SCR"
+      }, 
+      "42": {
+        "cutoffDate": "2017-04-22 17:30:00.0", 
+        "v+": "3.6", 
+        "outcomes": [
+          "h+", 
+          "h"
+        ], 
+        "h+": "3.15", 
+        "h": "2.45", 
+        "visitor": "WASHINGTON", 
+        "t": "2.1", 
+        "v": "2.6", 
+        "home": "ATLANTA", 
+        "sport": "BKL"
+      }, 
+      "29": {
+        "cutoffDate": "2017-04-22 19:00:00.0", 
+        "v+": "2.6", 
+        "outcomes": [
+          "h", 
+          "t"
+        ], 
+        "h+": "1.95", 
+        "h": "1.55", 
+        "visitor": "ATLANTA", 
+        "t": "2.6", 
+        "v": "1.9", 
+        "home": "PHILADELPHIA", 
+        "sport": "BBL"
+      }, 
+      "60": {
+        "cutoffDate": "2017-04-22 13:00:00.0", 
+        "v+": null, 
+        "outcomes": [
+          "t"
+        ], 
+        "h+": null, 
+        "h": "1.85", 
+        "visitor": "MONTREAL", 
         "t": "3.0", 
-        "visitor": "EVERTON", 
-        "home": "WEST HAM UTD", 
+        "v": "3.6", 
+        "home": "PHILADELPHIA", 
         "sport": "SCR"
       }, 
       "61": {
         "v": "8.0", 
-        "cutoffDate": "2017-04-22 14:00:00.0", 
-        "v+": null, 
-        "outcomes": [], 
-        "h+": null, 
         "h": "1.25", 
-        "t": "4.5", 
+        "v+": null, 
+        "outcomes": [
+          "h"
+        ], 
+        "h+": null, 
         "visitor": "SC BASTIA", 
+        "t": "4.5", 
+        "cutoffDate": "2017-04-22 14:00:00.0", 
         "home": "GIRONDINS BORDEAUX", 
         "sport": "SCR"
       }, 
       "62": {
         "v": "4.5", 
-        "cutoffDate": "2017-04-22 14:00:00.0", 
-        "v+": null, 
-        "outcomes": [], 
-        "h+": null, 
         "h": "1.55", 
-        "t": "3.5", 
+        "v+": null, 
+        "outcomes": [
+          "h"
+        ], 
+        "h+": null, 
         "visitor": "FC METZ", 
+        "t": "3.5", 
+        "cutoffDate": "2017-04-22 14:00:00.0", 
         "home": "FC LORIENT", 
         "sport": "SCR"
       }, 
       "63": {
         "v": "4.0", 
-        "cutoffDate": "2017-04-22 14:00:00.0", 
-        "v+": null, 
-        "outcomes": [], 
-        "h+": null, 
         "h": "1.7", 
-        "t": "3.2", 
+        "v+": null, 
+        "outcomes": [
+          "h"
+        ], 
+        "h+": null, 
         "visitor": "EA GUINGAMP", 
+        "t": "3.2", 
+        "cutoffDate": "2017-04-22 14:00:00.0", 
         "home": "LILLE", 
         "sport": "SCR"
       }, 
       "64": {
         "v": "2.5", 
-        "cutoffDate": "2017-04-22 14:45:00.0", 
-        "v+": null, 
-        "outcomes": [], 
-        "h+": null, 
         "h": "2.6", 
-        "t": "2.8", 
+        "v+": null, 
+        "outcomes": [
+          "h"
+        ], 
+        "h+": null, 
         "visitor": "INTER-MILAN", 
+        "t": "2.8", 
+        "cutoffDate": "2017-04-22 14:45:00.0", 
         "home": "FIORENTINA", 
         "sport": "SCR"
       }, 
       "65": {
         "v": "1.5", 
-        "cutoffDate": "2017-04-22 14:45:00.0", 
-        "v+": null, 
-        "outcomes": [], 
-        "h+": null, 
         "h": "5.0", 
-        "t": "3.6", 
+        "v+": null, 
+        "outcomes": [
+          "v"
+        ], 
+        "h+": null, 
         "visitor": "ATLETICO MADRID", 
+        "t": "3.6", 
+        "cutoffDate": "2017-04-22 14:45:00.0", 
         "home": "ESPANYOL BARCELONA", 
         "sport": "SCR"
       }, 
+      "66": {
+        "cutoffDate": "2017-04-22 15:55:00.0", 
+        "v+": null, 
+        "outcomes": [
+          "h"
+        ], 
+        "h+": null, 
+        "h": "1.85", 
+        "visitor": "SAN JOSE", 
+        "t": "3.0", 
+        "v": "3.6", 
+        "home": "HOUSTON", 
+        "sport": "SCR"
+      }, 
+      "67": {
+        "cutoffDate": "2017-04-22 16:00:00.0", 
+        "v+": null, 
+        "outcomes": [
+          "h"
+        ], 
+        "h+": null, 
+        "h": "1.55", 
+        "visitor": "VANCOUVER", 
+        "t": "3.5", 
+        "v": "4.5", 
+        "home": "PORTLAND", 
+        "sport": "SCR"
+      }, 
+      "68": {
+        "cutoffDate": "2017-04-22 19:30:00.0", 
+        "v+": null, 
+        "outcomes": [
+          "t"
+        ], 
+        "h+": null, 
+        "h": "1.55", 
+        "visitor": "DC", 
+        "t": "3.5", 
+        "v": "4.5", 
+        "home": "NEW ENGLAND", 
+        "sport": "SCR"
+      }, 
+      "69": {
+        "cutoffDate": "2017-04-22 19:30:00.0", 
+        "v+": null, 
+        "outcomes": [
+          "h"
+        ], 
+        "h+": null, 
+        "h": "1.55", 
+        "visitor": "COLUMBUS", 
+        "t": "3.5", 
+        "v": "4.5", 
+        "home": "NEW YORK", 
+        "sport": "SCR"
+      }, 
+      "80": {
+        "cutoffDate": "2017-04-22 23:59:00.0", 
+        "v+": null, 
+        "outcomes": [
+          "h"
+        ], 
+        "h+": null, 
+        "h": "3.3", 
+        "visitor": "BAYERN LEVERKUSEN", 
+        "t": "3.0", 
+        "v": "1.95", 
+        "home": "SC FREIBURG", 
+        "sport": "SCR"
+      }, 
+      "81": {
+        "cutoffDate": "2017-04-22 23:59:00.0", 
+        "v+": null, 
+        "outcomes": [
+          "t"
+        ], 
+        "h+": null, 
+        "h": "3.9", 
+        "visitor": "MANCHESTER CITY", 
+        "t": "3.1", 
+        "v": "1.75", 
+        "home": "ARSENAL", 
+        "sport": "SCR"
+      }, 
+      "53": {
+        "v": "3.3", 
+        "h": "1.95", 
+        "v+": null, 
+        "outcomes": [
+          "h"
+        ], 
+        "h+": null, 
+        "visitor": "STOKE CITY", 
+        "t": "3.0", 
+        "cutoffDate": "2017-04-22 10:00:00.0", 
+        "home": "SWANSEA CITY", 
+        "sport": "SCR"
+      }, 
+      "24": {
+        "cutoffDate": "2017-04-22 14:00:00.0", 
+        "v+": "2.0", 
+        "outcomes": [
+          "v", 
+          "t"
+        ], 
+        "h+": "2.5", 
+        "h": "1.8", 
+        "visitor": "DETROIT", 
+        "t": "2.5", 
+        "v": "1.6", 
+        "home": "MINNESOTA", 
+        "sport": "BBL"
+      }, 
+      "25": {
+        "cutoffDate": "2017-04-22 16:00:00.0", 
+        "v+": "2.15", 
+        "outcomes": [
+          "v+", 
+          "v"
+        ], 
+        "h+": "2.5", 
+        "h": "1.9", 
+        "visitor": "NEW YORK-Y", 
+        "t": "2.1", 
+        "v": "1.65", 
+        "home": "PITTSBURGH", 
+        "sport": "BBL"
+      }, 
+      "26": {
+        "cutoffDate": "2017-04-22 16:00:00.0", 
+        "v+": "2.5", 
+        "outcomes": [
+          "h", 
+          "t"
+        ], 
+        "h+": "2.0", 
+        "h": "1.6", 
+        "visitor": "SEATTLE", 
+        "t": "2.5", 
+        "v": "1.8", 
+        "home": "OAKLAND", 
+        "sport": "BBL"
+      }, 
       "20": {
         "v": "1.85", 
-        "cutoffDate": "2017-04-21 22:00:00.0", 
-        "v+": "2.6", 
-        "outcomes": [], 
-        "h+": "2.1", 
         "h": "1.6", 
-        "t": "2.15", 
+        "v+": "2.6", 
+        "outcomes": [
+          "h+", 
+          "h"
+        ], 
+        "h+": "2.1", 
         "visitor": "SEATTLE", 
+        "t": "2.15", 
+        "cutoffDate": "2017-04-21 22:00:00.0", 
         "home": "OAKLAND", 
         "sport": "BBL"
       }, 
       "21": {
         "v": "1.8", 
-        "cutoffDate": "2017-04-21 22:00:00.0", 
-        "v+": "2.5", 
-        "outcomes": [], 
-        "h+": "2.0", 
         "h": "1.6", 
-        "t": "2.5", 
+        "v+": "2.5", 
+        "outcomes": [
+          "v", 
+          "t"
+        ], 
+        "h+": "2.0", 
         "visitor": "TORONTO", 
+        "t": "2.5", 
+        "cutoffDate": "2017-04-21 22:00:00.0", 
         "home": "LA ANAHEIM", 
         "sport": "BBL"
       }, 
       "22": {
         "v": "1.55", 
-        "cutoffDate": "2017-04-21 22:00:00.0", 
-        "v+": "2.0", 
-        "outcomes": [], 
-        "h+": "2.7", 
         "h": "1.95", 
-        "t": "2.2", 
+        "v+": "2.0", 
+        "outcomes": [
+          "h+", 
+          "h"
+        ], 
+        "h+": "2.7", 
         "visitor": "MIAMI", 
+        "t": "2.2", 
+        "cutoffDate": "2017-04-21 22:00:00.0", 
         "home": "SAN DIEGO", 
         "sport": "BBL"
       }, 
-      "49": {
-        "v": "3.2", 
-        "cutoffDate": "2017-04-22 09:30:00.0", 
-        "v+": null, 
-        "outcomes": [], 
-        "h+": null, 
-        "h": "2.0", 
-        "t": "3.0", 
-        "visitor": "BREMEN", 
-        "home": "FC INGOLSTADT 04", 
-        "sport": "SCR"
+      "23": {
+        "cutoffDate": "2017-04-22 13:00:00.0", 
+        "v+": "1.7", 
+        "outcomes": [
+          "v+", 
+          "v"
+        ], 
+        "h+": "3.0", 
+        "h": "2.3", 
+        "visitor": "CHICAGO-C", 
+        "t": "2.8", 
+        "v": "1.35", 
+        "home": "CINCINNATI", 
+        "sport": "BBL"
       }, 
       "46": {
         "v": "1.8", 
-        "cutoffDate": "2017-04-21 14:45:00.0", 
-        "v+": null, 
-        "outcomes": [], 
-        "h+": null, 
         "h": "3.8", 
-        "t": "3.0", 
+        "v+": null, 
+        "outcomes": [
+          "t"
+        ], 
+        "h+": null, 
         "visitor": "MARSEILLE", 
+        "t": "3.0", 
+        "cutoffDate": "2017-04-21 14:45:00.0", 
         "home": "AS NANCY", 
         "sport": "SCR"
       }, 
       "47": {
         "v": "5.5", 
-        "cutoffDate": "2017-04-21 19:30:00.0", 
-        "v+": null, 
-        "outcomes": [], 
-        "h+": null, 
         "h": "1.45", 
-        "t": "3.7", 
+        "v+": null, 
+        "outcomes": [
+          "h"
+        ], 
+        "h+": null, 
         "visitor": "CHICAGO", 
+        "t": "3.7", 
+        "cutoffDate": "2017-04-21 19:30:00.0", 
         "home": "TORONTO", 
         "sport": "SCR"
       }, 
+      "44": {
+        "cutoffDate": "2017-04-22 22:30:00.0", 
+        "v+": "2.35", 
+        "outcomes": [
+          "v"
+        ], 
+        "h+": "4.7", 
+        "h": "3.7", 
+        "visitor": "GOLDEN STATE", 
+        "t": "2.7", 
+        "v": "1.75", 
+        "home": "PORTLAND", 
+        "sport": "BKL"
+      }, 
       "45": {
         "v": "2.2", 
-        "cutoffDate": "2017-04-21 14:30:00.0", 
-        "v+": null, 
-        "outcomes": [], 
-        "h+": null, 
         "h": "2.8", 
-        "t": "3.0", 
+        "v+": null, 
+        "outcomes": [
+          "t"
+        ], 
+        "h+": null, 
         "visitor": "TSG 1899 HOFFENHEIM", 
+        "t": "3.0", 
+        "cutoffDate": "2017-04-21 14:30:00.0", 
         "home": "FC KOLN", 
         "sport": "SCR"
       }, 
+      "28": {
+        "cutoffDate": "2017-04-22 18:00:00.0", 
+        "v+": "2.1", 
+        "outcomes": [
+          "h+", 
+          "h"
+        ], 
+        "h+": "2.4", 
+        "h": "1.75", 
+        "visitor": "HOUSTON", 
+        "t": "2.5", 
+        "v": "1.65", 
+        "home": "TAMPA BAY", 
+        "sport": "BBL"
+      }, 
+      "43": {
+        "cutoffDate": "2017-04-22 20:00:00.0", 
+        "v+": "2.55", 
+        "outcomes": [
+          "t"
+        ], 
+        "h+": "4.0", 
+        "h": "3.3", 
+        "visitor": "SAN ANTONIO", 
+        "t": "2.5", 
+        "v": "1.95", 
+        "home": "MEMPHIS", 
+        "sport": "BKL"
+      }, 
       "40": {
         "v": "2.45", 
-        "cutoffDate": "2017-04-21 22:00:00.0", 
-        "v+": "3.15", 
-        "outcomes": [], 
-        "h+": "3.6", 
         "h": "2.6", 
-        "t": "2.1", 
+        "v+": "3.15", 
+        "outcomes": [
+          "t"
+        ], 
+        "h+": "3.6", 
         "visitor": "LOS ANGELES-C", 
+        "t": "2.1", 
+        "cutoffDate": "2017-04-21 22:00:00.0", 
         "home": "UTAH", 
+        "sport": "BKL"
+      }, 
+      "41": {
+        "cutoffDate": "2017-04-22 15:00:00.0", 
+        "v+": "3.6", 
+        "outcomes": [
+          "v+", 
+          "v"
+        ], 
+        "h+": "3.15", 
+        "h": "2.45", 
+        "visitor": "TORONTO", 
+        "t": "2.1", 
+        "v": "2.6", 
+        "home": "MILWAUKEE", 
         "sport": "BKL"
       }, 
       "1": {
         "v": "2.3", 
-        "cutoffDate": "2017-04-21 19:00:00.0", 
-        "v+": "3.0", 
-        "outcomes": [], 
-        "h+": "1.8", 
         "h": "1.4", 
-        "t": null, 
+        "v+": "3.0", 
+        "outcomes": [
+          "h"
+        ], 
+        "h+": "1.8", 
         "visitor": "TORONTO", 
+        "t": null, 
+        "cutoffDate": "2017-04-21 19:00:00.0", 
         "home": "WASHINGTON", 
         "sport": "HKY"
       }, 
       "2": {
         "v": "1.8", 
-        "cutoffDate": "2017-04-21 19:30:00.0", 
-        "v+": "2.5", 
-        "outcomes": [], 
-        "h+": "2.4", 
         "h": "1.7", 
-        "t": null, 
+        "v+": "2.5", 
+        "outcomes": [
+          "v"
+        ], 
+        "h+": "2.4", 
         "visitor": "BOSTON", 
+        "t": null, 
+        "cutoffDate": "2017-04-21 19:30:00.0", 
         "home": "OTTAWA", 
+        "sport": "HKY"
+      }, 
+      "4": {
+        "cutoffDate": "2017-04-22 15:00:00.0", 
+        "v+": "3.0", 
+        "outcomes": [
+          "v"
+        ], 
+        "h+": "1.8", 
+        "h": "1.4", 
+        "visitor": "ST. LOUIS", 
+        "t": null, 
+        "v": "2.3", 
+        "home": "MINNESOTA", 
+        "sport": "HKY"
+      }, 
+      "7": {
+        "cutoffDate": "2017-04-22 22:30:00.0", 
+        "v+": "2.8", 
+        "outcomes": [
+          "v+", 
+          "v"
+        ], 
+        "h+": "2.1", 
+        "h": "1.55", 
+        "visitor": "EDMONTON", 
+        "t": null, 
+        "v": "2.0", 
+        "home": "SAN JOSE", 
+        "sport": "HKY"
+      }, 
+      "6": {
+        "cutoffDate": "2017-04-22 20:00:00.0", 
+        "v+": "2.3", 
+        "outcomes": [
+          "h+", 
+          "h"
+        ], 
+        "h+": "2.6", 
+        "h": "1.85", 
+        "visitor": "MONTREAL", 
+        "t": null, 
+        "v": "1.65", 
+        "home": "NEW YORK-R", 
         "sport": "HKY"
       }, 
       "9": {
         "v": "1.8", 
-        "cutoffDate": "2017-04-21 19:00:00.0", 
-        "v+": "2.5", 
-        "outcomes": [], 
-        "h+": "2.0", 
         "h": "1.6", 
-        "t": "2.5", 
+        "v+": "2.5", 
+        "outcomes": [
+          "h+", 
+          "h"
+        ], 
+        "h+": "2.0", 
         "visitor": "BOSTON", 
+        "t": "2.5", 
+        "cutoffDate": "2017-04-21 19:00:00.0", 
         "home": "BALTIMORE", 
         "sport": "BBL"
       }, 
       "8": {
         "v": "1.8", 
-        "cutoffDate": "2017-04-21 19:00:00.0", 
-        "v+": "2.5", 
-        "outcomes": [], 
-        "h+": "2.0", 
         "h": "1.6", 
-        "t": "2.5", 
+        "v+": "2.5", 
+        "outcomes": [
+          "h", 
+          "t"
+        ], 
+        "h+": "2.0", 
         "visitor": "ATLANTA", 
+        "t": "2.5", 
+        "cutoffDate": "2017-04-21 19:00:00.0", 
         "home": "PHILADELPHIA", 
         "sport": "BBL"
       }, 
+      "52": {
+        "v": "4.0", 
+        "h": "1.7", 
+        "v+": null, 
+        "outcomes": [
+          "h"
+        ], 
+        "h+": null, 
+        "visitor": "WATFORD", 
+        "t": "3.2", 
+        "cutoffDate": "2017-04-22 10:00:00.0", 
+        "home": "HULL CITY", 
+        "sport": "SCR"
+      }, 
+      "49": {
+        "v": "3.2", 
+        "h": "2.0", 
+        "v+": null, 
+        "outcomes": [
+          "v"
+        ], 
+        "h+": null, 
+        "visitor": "BREMEN", 
+        "t": "3.0", 
+        "cutoffDate": "2017-04-22 09:30:00.0", 
+        "home": "FC INGOLSTADT 04", 
+        "sport": "SCR"
+      }, 
       "39": {
         "v": "3.05", 
-        "cutoffDate": "2017-04-21 21:30:00.0", 
-        "v+": "3.75", 
-        "outcomes": [], 
-        "h+": "2.9", 
         "h": "2.3", 
-        "t": "2.25", 
+        "v+": "3.75", 
+        "outcomes": [
+          "t"
+        ], 
+        "h+": "2.9", 
         "visitor": "HOUSTON", 
+        "t": "2.25", 
+        "cutoffDate": "2017-04-21 21:30:00.0", 
         "home": "OKLAHOMA CITY", 
         "sport": "BKL"
       }, 
+      "77": {
+        "cutoffDate": "2017-04-22 23:59:00.0", 
+        "v+": null, 
+        "outcomes": [
+          "v"
+        ], 
+        "h+": null, 
+        "h": "1.7", 
+        "visitor": "FC CROTONE", 
+        "t": "3.2", 
+        "v": "4.0", 
+        "home": "SAMPDORIA", 
+        "sport": "SCR"
+      }, 
+      "76": {
+        "cutoffDate": "2017-04-22 23:59:00.0", 
+        "v+": null, 
+        "outcomes": [
+          "v"
+        ], 
+        "h+": null, 
+        "h": "1.2", 
+        "visitor": "EMPOLI", 
+        "t": "5.0", 
+        "v": "9.0", 
+        "home": "AC MILAN", 
+        "sport": "SCR"
+      }, 
+      "75": {
+        "cutoffDate": "2017-04-22 23:59:00.0", 
+        "v+": null, 
+        "outcomes": [
+          "v"
+        ], 
+        "h+": null, 
+        "h": "2.8", 
+        "visitor": "TORINO", 
+        "t": "3.0", 
+        "v": "2.2", 
+        "home": "CHIEVO", 
+        "sport": "SCR"
+      }, 
       "38": {
         "v": "2.6", 
-        "cutoffDate": "2017-04-21 19:00:00.0", 
-        "v+": "3.6", 
-        "outcomes": [], 
-        "h+": "3.15", 
         "h": "2.45", 
-        "t": "2.1", 
+        "v+": "3.6", 
+        "outcomes": [
+          "v+", 
+          "v"
+        ], 
+        "h+": "3.15", 
         "visitor": "BOSTON", 
+        "t": "2.1", 
+        "cutoffDate": "2017-04-21 19:00:00.0", 
         "home": "CHICAGO", 
         "sport": "BKL"
       }, 
+      "73": {
+        "cutoffDate": "2017-04-22 23:59:00.0", 
+        "v+": null, 
+        "outcomes": [
+          "t"
+        ], 
+        "h+": null, 
+        "h": "8.0", 
+        "visitor": "NAPOLI", 
+        "t": "4.5", 
+        "v": "1.25", 
+        "home": "US SASSUOLO", 
+        "sport": "SCR"
+      }, 
+      "72": {
+        "cutoffDate": "2017-04-22 23:59:00.0", 
+        "v+": null, 
+        "outcomes": [
+          "h"
+        ], 
+        "h+": null, 
+        "h": "1.45", 
+        "visitor": "DEPORTIVO LA CORUNA", 
+        "t": "3.7", 
+        "v": "5.5", 
+        "home": "REAL SOCIEDAD", 
+        "sport": "SCR"
+      }, 
+      "71": {
+        "cutoffDate": "2017-04-22 21:30:00.0", 
+        "v+": null, 
+        "outcomes": [
+          "v"
+        ], 
+        "h+": null, 
+        "h": "1.9", 
+        "visitor": "ATLANTA", 
+        "t": "3.0", 
+        "v": "3.4", 
+        "home": "SALT LAKE", 
+        "sport": "SCR"
+      }, 
+      "70": {
+        "cutoffDate": "2017-04-22 20:00:00.0", 
+        "v+": null, 
+        "outcomes": [
+          "h"
+        ], 
+        "h+": null, 
+        "h": "1.7", 
+        "visitor": "KANSAS CITY", 
+        "t": "3.2", 
+        "v": "4.0", 
+        "home": "DALLAS", 
+        "sport": "SCR"
+      }, 
       "59": {
         "v": "1.9", 
-        "cutoffDate": "2017-04-22 12:30:00.0", 
-        "v+": null, 
-        "outcomes": [], 
-        "h+": null, 
         "h": "3.4", 
-        "t": "3.0", 
+        "v+": null, 
+        "outcomes": [
+          "v"
+        ], 
+        "h+": null, 
         "visitor": "BORUSSIA DORTMUND", 
+        "t": "3.0", 
+        "cutoffDate": "2017-04-22 12:30:00.0", 
         "home": "MONCHENGLADBACH", 
         "sport": "SCR"
       }, 
-      "58": {
-        "v": "2.6", 
-        "cutoffDate": "2017-04-22 12:15:00.0", 
+      "79": {
+        "cutoffDate": "2017-04-22 23:59:00.0", 
         "v+": null, 
-        "outcomes": [], 
+        "outcomes": [
+          "v"
+        ], 
         "h+": null, 
-        "h": "2.5", 
-        "t": "2.8", 
-        "visitor": "TOTTENHAM HOT", 
-        "home": "CHELSEA", 
+        "h": "5.5", 
+        "visitor": "MANCHESTER UTD", 
+        "t": "3.7", 
+        "v": "1.45", 
+        "home": "BURNLEY", 
+        "sport": "SCR"
+      }, 
+      "78": {
+        "cutoffDate": "2017-04-22 23:59:00.0", 
+        "v+": null, 
+        "outcomes": [
+          "h"
+        ], 
+        "h+": null, 
+        "h": "1.65", 
+        "visitor": "CAGLIARI", 
+        "t": "3.3", 
+        "v": "4.2", 
+        "home": "UDINESE", 
         "sport": "SCR"
       }, 
       "11": {
         "v": "1.35", 
-        "cutoffDate": "2017-04-21 19:00:00.0", 
-        "v+": "1.7", 
-        "outcomes": [], 
-        "h+": "3.0", 
         "h": "2.3", 
-        "t": "2.8", 
+        "v+": "1.7", 
+        "outcomes": [
+          "v", 
+          "t"
+        ], 
+        "h+": "3.0", 
         "visitor": "CHICAGO-C", 
+        "t": "2.8", 
+        "cutoffDate": "2017-04-21 19:00:00.0", 
         "home": "CINCINNATI", 
         "sport": "BBL"
       }, 
       "10": {
         "v": "1.75", 
-        "cutoffDate": "2017-04-21 19:00:00.0", 
-        "v+": "2.4", 
-        "outcomes": [], 
-        "h+": "2.1", 
         "h": "1.65", 
-        "t": "2.5", 
+        "v+": "2.4", 
+        "outcomes": [
+          "h+", 
+          "h"
+        ], 
+        "h+": "2.1", 
         "visitor": "NEW YORK-Y", 
+        "t": "2.5", 
+        "cutoffDate": "2017-04-21 19:00:00.0", 
         "home": "PITTSBURGH", 
         "sport": "BBL"
       }, 
       "13": {
         "v": "2.05", 
-        "cutoffDate": "2017-04-21 19:00:00.0", 
-        "v+": "2.7", 
-        "outcomes": [], 
-        "h+": "1.95", 
         "h": "1.5", 
-        "t": "2.25", 
+        "v+": "2.7", 
+        "outcomes": [
+          "v", 
+          "t"
+        ], 
+        "h+": "1.95", 
         "visitor": "WASHINGTON", 
+        "t": "2.25", 
+        "cutoffDate": "2017-04-21 19:00:00.0", 
         "home": "NEW YORK-M", 
         "sport": "BBL"
       }, 
       "12": {
         "v": "1.75", 
-        "cutoffDate": "2017-04-21 19:00:00.0", 
-        "v+": "2.4", 
-        "outcomes": [], 
-        "h+": "2.1", 
         "h": "1.65", 
-        "t": "2.5", 
+        "v+": "2.4", 
+        "outcomes": [
+          "v+", 
+          "v"
+        ], 
+        "h+": "2.1", 
         "visitor": "HOUSTON", 
+        "t": "2.5", 
+        "cutoffDate": "2017-04-21 19:00:00.0", 
         "home": "TAMPA BAY", 
         "sport": "BBL"
       }, 
       "15": {
         "v": "1.45", 
-        "cutoffDate": "2017-04-21 20:00:00.0", 
-        "v+": "1.9", 
-        "outcomes": [], 
-        "h+": "2.8", 
         "h": "2.15", 
-        "t": "2.3", 
+        "v+": "1.9", 
+        "outcomes": [
+          "v+", 
+          "v"
+        ], 
+        "h+": "2.8", 
         "visitor": "CLEVELAND", 
+        "t": "2.3", 
+        "cutoffDate": "2017-04-21 20:00:00.0", 
         "home": "CHICAGO-S", 
         "sport": "BBL"
       }, 
+      "48": {
+        "v": "3.2", 
+        "h": "2.0", 
+        "v+": null, 
+        "outcomes": [
+          "h"
+        ], 
+        "h+": null, 
+        "visitor": "VALENCIA", 
+        "t": "3.0", 
+        "cutoffDate": "2017-04-22 07:00:00.0", 
+        "home": "CF MALAGA", 
+        "sport": "SCR"
+      }, 
       "14": {
         "v": "2.1", 
-        "cutoffDate": "2017-04-21 20:00:00.0", 
-        "v+": "2.7", 
-        "outcomes": [], 
-        "h+": "1.85", 
         "h": "1.45", 
-        "t": "2.7", 
+        "v+": "2.7", 
+        "outcomes": [
+          "h+", 
+          "h"
+        ], 
+        "h+": "1.85", 
         "visitor": "KANSAS CITY", 
-        "home": "TEXAS", 
-        "sport": "BBL"
-      }, 
-      "17": {
-        "v": "1.65", 
+        "t": "2.7", 
         "cutoffDate": "2017-04-21 20:00:00.0", 
-        "v+": "2.1", 
-        "outcomes": [], 
-        "h+": "2.4", 
-        "h": "1.75", 
-        "t": "2.5", 
-        "visitor": "ST. LOUIS", 
-        "home": "MILWAUKEE", 
+        "home": "TEXAS", 
         "sport": "BBL"
       }, 
       "16": {
         "v": "1.55", 
-        "cutoffDate": "2017-04-21 20:00:00.0", 
-        "v+": "2.0", 
-        "outcomes": [], 
-        "h+": "2.7", 
         "h": "1.95", 
-        "t": "2.2", 
+        "v+": "2.0", 
+        "outcomes": [
+          "h+", 
+          "h"
+        ], 
+        "h+": "2.7", 
         "visitor": "DETROIT", 
+        "t": "2.2", 
+        "cutoffDate": "2017-04-21 20:00:00.0", 
         "home": "MINNESOTA", 
+        "sport": "BBL"
+      }, 
+      "33": {
+        "cutoffDate": "2017-04-22 20:00:00.0", 
+        "v+": "2.5", 
+        "outcomes": [
+          "h", 
+          "t"
+        ], 
+        "h+": "2.0", 
+        "h": "1.6", 
+        "visitor": "KANSAS CITY", 
+        "t": "2.5", 
+        "v": "1.8", 
+        "home": "TEXAS", 
+        "sport": "BBL"
+      }, 
+      "54": {
+        "v": "2.0", 
+        "h": "3.2", 
+        "v+": null, 
+        "outcomes": [
+          "t"
+        ], 
+        "h+": null, 
+        "visitor": "EVERTON", 
+        "t": "3.0", 
+        "cutoffDate": "2017-04-22 10:00:00.0", 
+        "home": "WEST HAM UTD", 
+        "sport": "SCR"
+      }, 
+      "57": {
+        "v": "9.0", 
+        "h": "1.2", 
+        "v+": null, 
+        "outcomes": [
+          "h"
+        ], 
+        "h+": null, 
+        "visitor": "BOLOGNA", 
+        "t": "5.0", 
+        "cutoffDate": "2017-04-22 12:00:00.0", 
+        "home": "ATALANTA", 
+        "sport": "SCR"
+      }, 
+      "30": {
+        "cutoffDate": "2017-04-22 19:00:00.0", 
+        "v+": "2.4", 
+        "outcomes": [
+          "h+", 
+          "h"
+        ], 
+        "h+": "2.1", 
+        "h": "1.65", 
+        "visitor": "BOSTON", 
+        "t": "2.5", 
+        "v": "1.75", 
+        "home": "BALTIMORE", 
+        "sport": "BBL"
+      }, 
+      "51": {
+        "v": "4.2", 
+        "h": "1.65", 
+        "v+": null, 
+        "outcomes": [
+          "h"
+        ], 
+        "h+": null, 
+        "visitor": "MIDDLESBROUGH", 
+        "t": "3.3", 
+        "cutoffDate": "2017-04-22 10:00:00.0", 
+        "home": "BOURNEMOUTH", 
+        "sport": "SCR"
+      }, 
+      "36": {
+        "cutoffDate": "2017-04-22 20:30:00.0", 
+        "v+": "2.0", 
+        "outcomes": [
+          "v+", 
+          "v", 
+          "t"
+        ], 
+        "h+": "2.5", 
+        "h": "1.8", 
+        "visitor": "MIAMI", 
+        "t": "2.5", 
+        "v": "1.6", 
+        "home": "SAN DIEGO", 
+        "sport": "BBL"
+      }, 
+      "35": {
+        "cutoffDate": "2017-04-22 20:00:00.0", 
+        "v+": "2.4", 
+        "outcomes": [
+          "h+", 
+          "h"
+        ], 
+        "h+": "2.1", 
+        "h": "1.65", 
+        "visitor": "SAN FRANCISCO", 
+        "t": "2.5", 
+        "v": "1.75", 
+        "home": "COLORADO", 
+        "sport": "BBL"
+      }, 
+      "34": {
+        "cutoffDate": "2017-04-22 20:00:00.0", 
+        "v+": "2.1", 
+        "outcomes": [
+          "h+", 
+          "h"
+        ], 
+        "h+": "2.4", 
+        "h": "1.75", 
+        "visitor": "LOS ANGELES-D", 
+        "t": "2.5", 
+        "v": "1.65", 
+        "home": "ARIZONA", 
         "sport": "BBL"
       }, 
       "19": {
         "v": "1.55", 
-        "cutoffDate": "2017-04-21 21:30:00.0", 
-        "v+": "1.95", 
-        "outcomes": [], 
-        "h+": "2.6", 
         "h": "1.9", 
-        "t": "2.6", 
+        "v+": "1.95", 
+        "outcomes": [
+          "h+", 
+          "h"
+        ], 
+        "h+": "2.6", 
         "visitor": "LOS ANGELES-D", 
+        "t": "2.6", 
+        "cutoffDate": "2017-04-21 21:30:00.0", 
         "home": "ARIZONA", 
+        "sport": "BBL"
+      }, 
+      "55": {
+        "v": "5.0", 
+        "h": "1.5", 
+        "v+": null, 
+        "outcomes": [
+          "h"
+        ], 
+        "h+": null, 
+        "visitor": "LEGANES", 
+        "t": "3.6", 
+        "cutoffDate": "2017-04-22 10:15:00.0", 
+        "home": "VILLARREAL", 
+        "sport": "SCR"
+      }, 
+      "74": {
+        "cutoffDate": "2017-04-22 23:59:00.0", 
+        "v+": null, 
+        "outcomes": [
+          "t"
+        ], 
+        "h+": null, 
+        "h": "2.3", 
+        "visitor": "OGC NICE", 
+        "t": "2.7", 
+        "v": "2.8", 
+        "home": "FC TOULOUSE", 
+        "sport": "SCR"
+      }, 
+      "37": {
+        "cutoffDate": "2017-04-22 21:00:00.0", 
+        "v+": "2.6", 
+        "outcomes": [
+          "h", 
+          "t"
+        ], 
+        "h+": "1.95", 
+        "h": "1.55", 
+        "visitor": "TORONTO", 
+        "t": "2.6", 
+        "v": "1.9", 
+        "home": "LA ANAHEIM", 
         "sport": "BBL"
       }, 
       "18": {
         "v": "1.6", 
-        "cutoffDate": "2017-04-21 20:30:00.0", 
-        "v+": "2.0", 
-        "outcomes": [], 
-        "h+": "2.5", 
         "h": "1.8", 
-        "t": "2.5", 
+        "v+": "2.0", 
+        "outcomes": [
+          "h", 
+          "t"
+        ], 
+        "h+": "2.5", 
         "visitor": "SAN FRANCISCO", 
+        "t": "2.5", 
+        "cutoffDate": "2017-04-21 20:30:00.0", 
         "home": "COLORADO", 
         "sport": "BBL"
       }, 
-      "57": {
-        "v": "9.0", 
-        "cutoffDate": "2017-04-22 12:00:00.0", 
-        "v+": null, 
-        "outcomes": [], 
-        "h+": null, 
-        "h": "1.2", 
-        "t": "5.0", 
-        "visitor": "BOLOGNA", 
-        "home": "ATALANTA", 
-        "sport": "SCR"
-      }, 
-      "56": {
-        "v": "9.95", 
-        "cutoffDate": "2017-04-22 11:00:00.0", 
-        "v+": null, 
-        "outcomes": [], 
-        "h+": null, 
-        "h": "1.05", 
-        "t": "6.25", 
-        "visitor": "MONTPELLIER", 
-        "home": "PARIS ST. GERMAIN", 
-        "sport": "SCR"
-      }, 
-      "51": {
-        "v": "4.2", 
-        "cutoffDate": "2017-04-22 10:00:00.0", 
-        "v+": null, 
-        "outcomes": [], 
-        "h+": null, 
+      "32": {
+        "cutoffDate": "2017-04-22 19:00:00.0", 
+        "v+": "2.4", 
+        "outcomes": [
+          "v+", 
+          "v"
+        ], 
+        "h+": "2.1", 
         "h": "1.65", 
-        "t": "3.3", 
-        "visitor": "MIDDLESBROUGH", 
-        "home": "BOURNEMOUTH", 
-        "sport": "SCR"
+        "visitor": "ST. LOUIS", 
+        "t": "2.5", 
+        "v": "1.75", 
+        "home": "MILWAUKEE", 
+        "sport": "BBL"
+      }, 
+      "17": {
+        "v": "1.65", 
+        "h": "1.75", 
+        "v+": "2.1", 
+        "outcomes": [
+          "v+", 
+          "v"
+        ], 
+        "h+": "2.4", 
+        "visitor": "ST. LOUIS", 
+        "t": "2.5", 
+        "cutoffDate": "2017-04-21 20:00:00.0", 
+        "home": "MILWAUKEE", 
+        "sport": "BBL"
+      }, 
+      "31": {
+        "cutoffDate": "2017-04-22 19:00:00.0", 
+        "v+": "1.6", 
+        "outcomes": [
+          "v+", 
+          "v"
+        ], 
+        "h+": "3.3", 
+        "h": "2.5", 
+        "visitor": "CLEVELAND", 
+        "t": "2.8", 
+        "v": "1.3", 
+        "home": "CHICAGO-S", 
+        "sport": "BBL"
       }, 
       "50": {
         "v": "2.8", 
-        "cutoffDate": "2017-04-22 09:30:00.0", 
-        "v+": null, 
-        "outcomes": [], 
-        "h+": null, 
         "h": "2.2", 
-        "t": "3.0", 
+        "v+": null, 
+        "outcomes": [
+          "h"
+        ], 
+        "h+": null, 
         "visitor": "VFL WOLFSBURG", 
+        "t": "3.0", 
+        "cutoffDate": "2017-04-22 09:30:00.0", 
         "home": "HERTHA BSC BERLIN", 
-        "sport": "SCR"
-      }, 
-      "53": {
-        "v": "3.3", 
-        "cutoffDate": "2017-04-22 10:00:00.0", 
-        "v+": null, 
-        "outcomes": [], 
-        "h+": null, 
-        "h": "1.95", 
-        "t": "3.0", 
-        "visitor": "STOKE CITY", 
-        "home": "SWANSEA CITY", 
-        "sport": "SCR"
-      }, 
-      "52": {
-        "v": "4.0", 
-        "cutoffDate": "2017-04-22 10:00:00.0", 
-        "v+": null, 
-        "outcomes": [], 
-        "h+": null, 
-        "h": "1.7", 
-        "t": "3.2", 
-        "visitor": "WATFORD", 
-        "home": "HULL CITY", 
-        "sport": "SCR"
-      }, 
-      "55": {
-        "v": "5.0", 
-        "cutoffDate": "2017-04-22 10:15:00.0", 
-        "v+": null, 
-        "outcomes": [], 
-        "h+": null, 
-        "h": "1.5", 
-        "t": "3.6", 
-        "visitor": "LEGANES", 
-        "home": "VILLARREAL", 
-        "sport": "SCR"
-      }, 
-      "48": {
-        "v": "3.2", 
-        "cutoffDate": "2017-04-22 07:00:00.0", 
-        "v+": null, 
-        "outcomes": [], 
-        "h+": null, 
-        "h": "2.0", 
-        "t": "3.0", 
-        "visitor": "VALENCIA", 
-        "home": "CF MALAGA", 
         "sport": "SCR"
       }
     }
@@ -826,136 +1477,136 @@
     "date": 1492488000000, 
     "games": {
       "42": {
+        "v": "5.5", 
         "cutoffDate": "2017-04-19 14:45:00.0", 
         "v+": null, 
         "outcomes": [
           "t"
         ], 
         "h+": null, 
-        "h": "1.45", 
-        "visitor": "JUVENTUS", 
+        "sport": "SCR", 
         "t": "3.7", 
-        "v": "5.5", 
+        "visitor": "JUVENTUS", 
         "home": "BARCELONA", 
-        "sport": "SCR"
+        "h": "1.45"
       }, 
       "29": {
-        "v": "1.6", 
-        "h": "1.8", 
+        "cutoffDate": "2017-04-19 19:00:00.0", 
         "v+": "2.0", 
         "outcomes": [
           "v+", 
           "v"
         ], 
         "h+": "2.5", 
+        "h": "1.8", 
         "visitor": "BALTIMORE", 
         "t": "2.5", 
-        "cutoffDate": "2017-04-19 19:00:00.0", 
+        "v": "1.6", 
         "home": "CINCINNATI", 
         "sport": "BBL"
       }, 
       "35": {
-        "v": "1.5", 
-        "h": "2.05", 
+        "cutoffDate": "2017-04-19 20:15:00.0", 
         "v+": "1.95", 
         "outcomes": [
           "h+", 
           "h"
         ], 
         "h+": "2.7", 
+        "h": "2.05", 
         "visitor": "SAN FRANCISCO", 
         "t": "2.25", 
-        "cutoffDate": "2017-04-19 20:15:00.0", 
+        "v": "1.5", 
         "home": "KANSAS CITY", 
         "sport": "BBL"
       }, 
       "34": {
-        "v": "2.3", 
-        "h": "1.35", 
+        "cutoffDate": "2017-04-19 20:00:00.0", 
         "v+": "3.0", 
         "outcomes": [
           "h+", 
           "h"
         ], 
         "h+": "1.7", 
+        "h": "1.35", 
         "visitor": "LA ANAHEIM", 
         "t": "2.8", 
-        "cutoffDate": "2017-04-19 20:00:00.0", 
+        "v": "2.3", 
         "home": "HOUSTON", 
         "sport": "BBL"
       }, 
       "23": {
-        "v": "1.9", 
-        "h": "1.65", 
+        "cutoffDate": "2017-04-19 13:45:00.0", 
         "v+": "2.5", 
         "outcomes": [
           "h", 
           "t"
         ], 
         "h+": "2.15", 
+        "h": "1.65", 
         "visitor": "PITTSBURGH", 
         "t": "2.1", 
-        "cutoffDate": "2017-04-19 13:45:00.0", 
+        "v": "1.9", 
         "home": "ST. LOUIS", 
         "sport": "BBL"
       }, 
       "24": {
-        "v": "2.5", 
-        "h": "1.3", 
+        "cutoffDate": "2017-04-19 14:15:00.0", 
         "v+": "3.3", 
         "outcomes": [
           "h+", 
           "h"
         ], 
         "h+": "1.6", 
+        "h": "1.3", 
         "visitor": "MILWAUKEE", 
         "t": "2.8", 
-        "cutoffDate": "2017-04-19 14:15:00.0", 
+        "v": "2.5", 
         "home": "CHICAGO-C", 
         "sport": "BBL"
       }, 
       "25": {
-        "v": "1.75", 
-        "h": "1.65", 
+        "cutoffDate": "2017-04-19 15:30:00.0", 
         "v+": "2.4", 
         "outcomes": [
           "h+", 
           "h"
         ], 
         "h+": "2.1", 
+        "h": "1.65", 
         "visitor": "TEXAS", 
         "t": "2.5", 
-        "cutoffDate": "2017-04-19 15:30:00.0", 
+        "v": "1.75", 
         "home": "OAKLAND", 
         "sport": "BBL"
       }, 
       "26": {
-        "v": "2.15", 
-        "h": "1.45", 
+        "cutoffDate": "2017-04-19 15:30:00.0", 
         "v+": "2.8", 
         "outcomes": [
           "h+", 
           "h"
         ], 
         "h+": "1.9", 
+        "h": "1.45", 
         "visitor": "MIAMI", 
         "t": "2.3", 
-        "cutoffDate": "2017-04-19 15:30:00.0", 
+        "v": "2.15", 
         "home": "SEATTLE", 
         "sport": "BBL"
       }, 
       "27": {
-        "v": "2.5", 
-        "h": "1.3", 
+        "cutoffDate": "2017-04-19 19:00:00.0", 
         "v+": "3.3", 
         "outcomes": [
           "h+", 
           "h"
         ], 
         "h+": "1.6", 
+        "h": "1.3", 
         "visitor": "CHICAGO-S", 
         "t": "2.8", 
-        "cutoffDate": "2017-04-19 19:00:00.0", 
+        "v": "2.5", 
         "home": "NEW YORK-Y", 
         "sport": "BBL"
       }, 
@@ -1016,103 +1667,103 @@
         "sport": "BKL"
       }, 
       "46": {
-        "v": "2.6", 
-        "h": "2.5", 
+        "cutoffDate": "2017-04-19 23:59:00.0", 
         "v+": null, 
         "outcomes": [
           "t"
         ], 
         "h+": null, 
+        "h": "2.5", 
         "visitor": "CELTA DE VIGO", 
         "t": "2.8", 
-        "cutoffDate": "2017-04-19 23:59:00.0", 
+        "v": "2.6", 
         "home": "GENK", 
         "sport": "SCR"
       }, 
       "47": {
-        "v": "9.9", 
-        "h": "1.1", 
+        "cutoffDate": "2017-04-19 23:59:00.0", 
         "v+": null, 
         "outcomes": [
           "t"
         ], 
         "h+": null, 
+        "h": "1.1", 
         "visitor": "ANDERLECHT", 
         "t": "6.0", 
-        "cutoffDate": "2017-04-19 23:59:00.0", 
+        "v": "9.9", 
         "home": "MANCHESTER UTD", 
         "sport": "SCR"
       }, 
       "44": {
-        "v": "2.6", 
-        "h": "2.5", 
+        "cutoffDate": "2017-04-19 23:59:00.0", 
         "v+": null, 
         "outcomes": [
           "h"
         ], 
         "h+": null, 
+        "h": "2.5", 
         "visitor": "LYON", 
         "t": "2.8", 
-        "cutoffDate": "2017-04-19 23:59:00.0", 
+        "v": "2.6", 
         "home": "BESIKTAS", 
         "sport": "SCR"
       }, 
       "45": {
-        "v": "4.0", 
-        "h": "1.7", 
+        "cutoffDate": "2017-04-19 23:59:00.0", 
         "v+": null, 
         "outcomes": [
           "h"
         ], 
         "h+": null, 
+        "h": "1.7", 
         "visitor": "AJAX", 
         "t": "3.2", 
-        "cutoffDate": "2017-04-19 23:59:00.0", 
+        "v": "4.0", 
         "home": "SCHALKE", 
         "sport": "SCR"
       }, 
       "28": {
-        "v": "1.75", 
-        "h": "1.65", 
+        "cutoffDate": "2017-04-19 19:00:00.0", 
         "v+": "2.4", 
         "outcomes": [
           "h+", 
           "h"
         ], 
         "h+": "2.1", 
+        "h": "1.65", 
         "visitor": "BOSTON", 
         "t": "2.5", 
-        "cutoffDate": "2017-04-19 19:00:00.0", 
+        "v": "1.75", 
         "home": "TORONTO", 
         "sport": "BBL"
       }, 
       "43": {
-        "v": "4.2", 
-        "h": "1.65", 
+        "cutoffDate": "2017-04-19 19:30:00.0", 
         "v+": null, 
         "outcomes": [
           "t"
         ], 
         "h+": null, 
+        "h": "1.65", 
         "visitor": "SAN JOSE", 
         "t": "3.3", 
-        "cutoffDate": "2017-04-19 19:30:00.0", 
+        "v": "4.2", 
         "home": "NEW ENGLAND", 
         "sport": "SCR"
       }, 
       "41": {
+        "v": "2.3", 
         "cutoffDate": "2017-04-19 14:45:00.0", 
         "v+": null, 
         "outcomes": [
           "h"
         ], 
         "h+": null, 
-        "h": "2.8", 
-        "visitor": "BORUSSIA DORTMUND", 
+        "sport": "SCR", 
         "t": "2.7", 
-        "v": "2.3", 
+        "visitor": "BORUSSIA DORTMUND", 
         "home": "MONACO", 
-        "sport": "SCR"
+        "h": "2.8"
       }, 
       "1": {
         "h": "1.7", 
@@ -1155,60 +1806,60 @@
         "sport": "HKY"
       }, 
       "5": {
-        "v": "2.2", 
-        "h": "1.45", 
+        "cutoffDate": "2017-04-19 19:30:00.0", 
         "v+": "3.0", 
         "outcomes": [
           "v"
         ], 
         "h+": "1.9", 
+        "h": "1.45", 
         "visitor": "OTTAWA", 
         "t": null, 
-        "cutoffDate": "2017-04-19 19:30:00.0", 
+        "v": "2.2", 
         "home": "BOSTON", 
         "sport": "HKY"
       }, 
       "4": {
-        "v": "1.55", 
-        "h": "2.0", 
+        "cutoffDate": "2017-04-19 19:00:00.0", 
         "v+": "2.1", 
         "outcomes": [
           "v"
         ], 
         "h+": "2.8", 
+        "h": "2.0", 
         "visitor": "WASHINGTON", 
         "t": null, 
-        "cutoffDate": "2017-04-19 19:00:00.0", 
+        "v": "1.55", 
         "home": "TORONTO", 
         "sport": "HKY"
       }, 
       "7": {
-        "v": "1.8", 
-        "h": "1.7", 
+        "cutoffDate": "2017-04-19 22:00:00.0", 
         "v+": "2.5", 
         "outcomes": [
           "v+", 
           "v"
         ], 
         "h+": "2.4", 
+        "h": "1.7", 
         "visitor": "ANAHEIM", 
         "t": null, 
-        "cutoffDate": "2017-04-19 22:00:00.0", 
+        "v": "1.8", 
         "home": "CALGARY", 
         "sport": "HKY"
       }, 
       "6": {
-        "v": "1.7", 
-        "h": "1.8", 
+        "cutoffDate": "2017-04-19 21:30:00.0", 
         "v+": "2.4", 
         "outcomes": [
           "v+", 
           "v"
         ], 
         "h+": "2.5", 
+        "h": "1.8", 
         "visitor": "MINNESOTA", 
         "t": null, 
-        "cutoffDate": "2017-04-19 21:30:00.0", 
+        "v": "1.7", 
         "home": "ST. LOUIS", 
         "sport": "HKY"
       }, 
@@ -1368,117 +2019,117 @@
         "sport": "BBL"
       }, 
       "31": {
-        "v": "1.8", 
-        "h": "1.6", 
+        "cutoffDate": "2017-04-19 19:00:00.0", 
         "v+": "2.5", 
         "outcomes": [
           "h", 
           "t"
         ], 
         "h+": "2.0", 
+        "h": "1.6", 
         "visitor": "PHILADELPHIA", 
         "t": "2.5", 
-        "cutoffDate": "2017-04-19 19:00:00.0", 
+        "v": "1.8", 
         "home": "NEW YORK-M", 
         "sport": "BBL"
       }, 
       "30": {
-        "v": "2.25", 
-        "h": "1.4", 
+        "cutoffDate": "2017-04-19 19:00:00.0", 
         "v+": "2.9", 
         "outcomes": [
           "h", 
           "t"
         ], 
         "h+": "1.85", 
+        "h": "1.4", 
         "visitor": "DETROIT", 
         "t": "2.35", 
-        "cutoffDate": "2017-04-19 19:00:00.0", 
+        "v": "2.25", 
         "home": "TAMPA BAY", 
         "sport": "BBL"
       }, 
       "51": {
-        "v": "3.6", 
-        "h": "1.8", 
+        "cutoffDate": "2017-04-19 19:00:00.0", 
         "v+": "4.6", 
         "outcomes": [
           "h"
         ], 
         "h+": "2.4", 
+        "h": "1.8", 
         "visitor": "ATLANTA", 
         "t": "2.6", 
-        "cutoffDate": "2017-04-19 19:00:00.0", 
+        "v": "3.6", 
         "home": "WASHINGTON", 
         "sport": "BKL"
       }, 
       "36": {
-        "v": "1.5", 
-        "h": "2.05", 
+        "cutoffDate": "2017-04-19 22:00:00.0", 
         "v+": "1.95", 
         "outcomes": [
           "h", 
           "t"
         ], 
         "h+": "2.7", 
+        "h": "2.05", 
         "visitor": "ARIZONA", 
         "t": "2.25", 
-        "cutoffDate": "2017-04-19 22:00:00.0", 
+        "v": "1.5", 
         "home": "SAN DIEGO", 
         "sport": "BBL"
       }, 
       "53": {
-        "v": "8.75", 
-        "h": "1.05", 
+        "cutoffDate": "2017-04-19 22:30:00.0", 
         "v+": "9.9", 
         "outcomes": [
           "h+", 
           "h"
         ], 
         "h+": "1.1", 
+        "h": "1.05", 
         "visitor": "PORTLAND", 
         "t": "5.5", 
-        "cutoffDate": "2017-04-19 22:30:00.0", 
+        "v": "8.75", 
         "home": "GOLDEN STATE", 
         "sport": "BKL"
       }, 
       "52": {
-        "v": "4.0", 
-        "h": "1.6", 
+        "cutoffDate": "2017-04-19 20:00:00.0", 
         "v+": "5.0", 
         "outcomes": [
           "t"
         ], 
         "h+": "2.2", 
+        "h": "1.6", 
         "visitor": "OKLAHOMA CITY", 
         "t": "3.0", 
-        "cutoffDate": "2017-04-19 20:00:00.0", 
+        "v": "4.0", 
         "home": "HOUSTON", 
         "sport": "BKL"
       }, 
       "33": {
-        "v": "1.6", 
-        "h": "1.8", 
+        "cutoffDate": "2017-04-19 20:00:00.0", 
         "v+": "2.0", 
         "outcomes": [], 
         "h+": "2.5", 
+        "h": "1.8", 
         "visitor": "CLEVELAND", 
         "t": "2.5", 
-        "cutoffDate": "2017-04-19 20:00:00.0", 
+        "v": "1.6", 
         "home": "MINNESOTA", 
         "sport": "BBL"
       }, 
       "37": {
-        "v": "2.85", 
-        "h": "1.2", 
+        "cutoffDate": "2017-04-19 22:00:00.0", 
         "v+": "4.1", 
         "outcomes": [
           "h+", 
           "h"
         ], 
         "h+": "1.45", 
+        "h": "1.2", 
         "visitor": "COLORADO", 
         "t": "2.55", 
-        "cutoffDate": "2017-04-19 22:00:00.0", 
+        "v": "2.85", 
         "home": "LOS ANGELES-D", 
         "sport": "BBL"
       }, 
@@ -1507,6 +2158,1269 @@
         "v": "4.7", 
         "home": "LOS ANGELES-C", 
         "sport": "BKL"
+      }
+    }
+  }, 
+  "2534": {
+    "date": 1492920000000, 
+    "games": {
+      "30": {
+        "v": "6.0", 
+        "cutoffDate": "2017-04-23 06:00:00.0", 
+        "v+": null, 
+        "outcomes": [
+          "h"
+        ], 
+        "h+": null, 
+        "sport": "SCR", 
+        "t": "3.8", 
+        "visitor": "DEPORTIVO LA CORUNA", 
+        "home": "REAL SOCIEDAD", 
+        "h": "1.4"
+      }, 
+      "28": {
+        "v": "1.75", 
+        "cutoffDate": "2017-04-24 22:00:00.0", 
+        "v+": "2.4", 
+        "outcomes": [
+          "h", 
+          "t"
+        ], 
+        "h+": "2.1", 
+        "visitor": "TORONTO", 
+        "t": "2.5", 
+        "h": "1.65", 
+        "home": "LA ANAHEIM", 
+        "sport": "BBL"
+      }, 
+      "29": {
+        "v": "1.45", 
+        "cutoffDate": "2017-04-24 22:15:00.0", 
+        "v+": "1.85", 
+        "outcomes": [
+          "h", 
+          "t"
+        ], 
+        "h+": "2.7", 
+        "visitor": "LOS ANGELES-D", 
+        "t": "2.7", 
+        "h": "2.1", 
+        "home": "SAN FRANCISCO", 
+        "sport": "BBL"
+      }, 
+      "60": {
+        "v": "2.35", 
+        "cutoffDate": "2017-04-23 18:30:00.0", 
+        "v+": "3.0", 
+        "outcomes": [
+          "v"
+        ], 
+        "h+": "3.7", 
+        "sport": "BKL", 
+        "t": "2.2", 
+        "visitor": "BOSTON", 
+        "home": "CHICAGO", 
+        "h": "3.0"
+      }, 
+      "61": {
+        "v": "3.05", 
+        "cutoffDate": "2017-04-23 21:00:00.0", 
+        "v+": "3.75", 
+        "outcomes": [
+          "h"
+        ], 
+        "h+": "2.9", 
+        "sport": "BKL", 
+        "t": "2.25", 
+        "visitor": "LOS ANGELES-C", 
+        "home": "UTAH", 
+        "h": "2.3"
+      }, 
+      "62": {
+        "v": "3.8", 
+        "cutoffDate": "2017-04-24 19:00:00.0", 
+        "v+": "4.8", 
+        "outcomes": [
+          "h+", 
+          "h"
+        ], 
+        "h+": "2.3", 
+        "visitor": "MILWAUKEE", 
+        "t": "2.8", 
+        "h": "1.7", 
+        "home": "TORONTO", 
+        "sport": "BKL"
+      }, 
+      "63": {
+        "v": "3.05", 
+        "cutoffDate": "2017-04-24 20:00:00.0", 
+        "v+": "3.75", 
+        "outcomes": [
+          "h"
+        ], 
+        "h+": "2.9", 
+        "visitor": "WASHINGTON", 
+        "t": "2.25", 
+        "h": "2.3", 
+        "home": "ATLANTA", 
+        "sport": "BKL"
+      }, 
+      "64": {
+        "v": "1.6", 
+        "cutoffDate": "2017-04-24 22:30:00.0", 
+        "v+": "2.2", 
+        "outcomes": [
+          "v+", 
+          "v"
+        ], 
+        "h+": "5.0", 
+        "visitor": "GOLDEN STATE", 
+        "t": "3.0", 
+        "h": "4.0", 
+        "home": "PORTLAND", 
+        "sport": "BKL"
+      }, 
+      "49": {
+        "v": "3.4", 
+        "cutoffDate": "2017-04-23 16:00:00.0", 
+        "v+": null, 
+        "outcomes": [
+          "v"
+        ], 
+        "h+": null, 
+        "sport": "SCR", 
+        "t": "3.0", 
+        "visitor": "SEATTLE", 
+        "home": "LOS ANGELES", 
+        "h": "1.9"
+      }, 
+      "52": {
+        "v": "2.8", 
+        "cutoffDate": "2017-04-24 14:45:00.0", 
+        "v+": null, 
+        "outcomes": [
+          "v"
+        ], 
+        "h+": null, 
+        "sport": "SCR", 
+        "t": "3.0", 
+        "visitor": "ATHLETIC BILBAO", 
+        "home": "SD EIBAR", 
+        "h": "2.2"
+      }, 
+      "24": {
+        "v": "1.9", 
+        "cutoffDate": "2017-04-24 20:00:00.0", 
+        "v+": "2.6", 
+        "outcomes": [
+          "v", 
+          "t"
+        ], 
+        "h+": "1.95", 
+        "visitor": "MINNESOTA", 
+        "t": "2.6", 
+        "h": "1.55", 
+        "home": "TEXAS", 
+        "sport": "BBL"
+      }, 
+      "25": {
+        "v": "1.6", 
+        "cutoffDate": "2017-04-24 20:00:00.0", 
+        "v+": "2.1", 
+        "outcomes": [
+          "h+", 
+          "h"
+        ], 
+        "h+": "2.6", 
+        "visitor": "KANSAS CITY", 
+        "t": "2.15", 
+        "h": "1.85", 
+        "home": "CHICAGO-S", 
+        "sport": "BBL"
+      }, 
+      "26": {
+        "v": "1.6", 
+        "cutoffDate": "2017-04-24 20:30:00.0", 
+        "v+": "2.0", 
+        "outcomes": [
+          "h+", 
+          "h"
+        ], 
+        "h+": "2.5", 
+        "visitor": "WASHINGTON", 
+        "t": "2.5", 
+        "h": "1.8", 
+        "home": "COLORADO", 
+        "sport": "BBL"
+      }, 
+      "27": {
+        "v": "2.3", 
+        "cutoffDate": "2017-04-24 21:30:00.0", 
+        "v+": "3.0", 
+        "outcomes": [
+          "h", 
+          "t"
+        ], 
+        "h+": "1.7", 
+        "visitor": "SAN DIEGO", 
+        "t": "2.8", 
+        "h": "1.35", 
+        "home": "ARIZONA", 
+        "sport": "BBL"
+      }, 
+      "20": {
+        "v": "1.35", 
+        "cutoffDate": "2017-04-23 20:00:00.0", 
+        "v+": "1.75", 
+        "outcomes": [
+          "v+", 
+          "v"
+        ], 
+        "h+": "3.1", 
+        "sport": "BBL", 
+        "t": "2.4", 
+        "visitor": "WASHINGTON", 
+        "home": "NEW YORK-M", 
+        "h": "2.35"
+      }, 
+      "21": {
+        "v": "1.6", 
+        "cutoffDate": "2017-04-24 19:00:00.0", 
+        "v+": "2.0", 
+        "outcomes": [
+          "v+", 
+          "v"
+        ], 
+        "h+": "2.5", 
+        "visitor": "CHICAGO-C", 
+        "t": "2.5", 
+        "h": "1.8", 
+        "home": "PITTSBURGH", 
+        "sport": "BBL"
+      }, 
+      "22": {
+        "v": "1.65", 
+        "cutoffDate": "2017-04-24 19:00:00.0", 
+        "v+": "2.1", 
+        "outcomes": [
+          "h+", 
+          "h"
+        ], 
+        "h+": "2.4", 
+        "visitor": "TAMPA BAY", 
+        "t": "2.5", 
+        "h": "1.75", 
+        "home": "BALTIMORE", 
+        "sport": "BBL"
+      }, 
+      "23": {
+        "v": "1.65", 
+        "cutoffDate": "2017-04-24 19:30:00.0", 
+        "v+": "2.1", 
+        "outcomes": [
+          "h+", 
+          "h"
+        ], 
+        "h+": "2.4", 
+        "visitor": "CINCINNATI", 
+        "t": "2.5", 
+        "h": "1.75", 
+        "home": "MILWAUKEE", 
+        "sport": "BBL"
+      }, 
+      "47": {
+        "v": "3.1", 
+        "cutoffDate": "2017-04-23 14:45:00.0", 
+        "v+": null, 
+        "outcomes": [
+          "v"
+        ], 
+        "h+": null, 
+        "sport": "SCR", 
+        "t": "2.8", 
+        "visitor": "BARCELONA", 
+        "home": "REAL MADRID", 
+        "h": "2.15"
+      }, 
+      "44": {
+        "v": "3.6", 
+        "cutoffDate": "2017-04-23 12:30:00.0", 
+        "v+": null, 
+        "outcomes": [
+          "t"
+        ], 
+        "h+": null, 
+        "sport": "SCR", 
+        "t": "3.0", 
+        "visitor": "ALAVES", 
+        "home": "LAS PALMAS", 
+        "h": "1.85"
+      }, 
+      "45": {
+        "v": "5.0", 
+        "cutoffDate": "2017-04-23 13:30:00.0", 
+        "v+": null, 
+        "outcomes": [
+          "v"
+        ], 
+        "h+": null, 
+        "sport": "SCR", 
+        "t": "3.6", 
+        "visitor": "ORLANDO", 
+        "home": "NEW YORK CITY FC", 
+        "h": "1.5"
+      }, 
+      "42": {
+        "v": "7.0", 
+        "cutoffDate": "2017-04-23 11:30:00.0", 
+        "v+": null, 
+        "outcomes": [
+          "v"
+        ], 
+        "h+": null, 
+        "sport": "SCR", 
+        "t": "4.25", 
+        "visitor": "CRYSTAL PALACE", 
+        "home": "LIVERPOOL", 
+        "h": "1.3"
+      }, 
+      "43": {
+        "v": "2.25", 
+        "cutoffDate": "2017-04-23 11:30:00.0", 
+        "v+": null, 
+        "outcomes": [
+          "t"
+        ], 
+        "h+": null, 
+        "sport": "SCR", 
+        "t": "2.75", 
+        "visitor": "RB LEIPZIG", 
+        "home": "SCHALKE", 
+        "h": "3.0"
+      }, 
+      "40": {
+        "v": "3.6", 
+        "cutoffDate": "2017-04-23 10:15:00.0", 
+        "v+": null, 
+        "outcomes": [
+          "v"
+        ], 
+        "h+": null, 
+        "sport": "SCR", 
+        "t": "3.0", 
+        "visitor": "BETIS SEVILLA", 
+        "home": "CELTA DE VIGO", 
+        "h": "1.85"
+      }, 
+      "41": {
+        "v": "3.9", 
+        "cutoffDate": "2017-04-23 11:00:00.0", 
+        "v+": null, 
+        "outcomes": [
+          "t"
+        ], 
+        "h+": null, 
+        "sport": "SCR", 
+        "t": "3.1", 
+        "visitor": "FC STADE RENNES", 
+        "home": "AS SAINT ETIENNE", 
+        "h": "1.75"
+      }, 
+      "1": {
+        "v": "2.3", 
+        "cutoffDate": "2017-04-23 15:00:00.0", 
+        "v+": "3.0", 
+        "outcomes": [
+          "v"
+        ], 
+        "h+": "1.8", 
+        "sport": "HKY", 
+        "t": null, 
+        "visitor": "OTTAWA", 
+        "home": "BOSTON", 
+        "h": "1.4"
+      }, 
+      "35": {
+        "v": "4.3", 
+        "cutoffDate": "2017-04-23 09:00:00.0", 
+        "v+": null, 
+        "outcomes": [
+          "v"
+        ], 
+        "h+": null, 
+        "sport": "SCR", 
+        "t": "3.4", 
+        "visitor": "FC CROTONE", 
+        "home": "SAMPDORIA", 
+        "h": "1.6"
+      }, 
+      "2": {
+        "v": "1.5", 
+        "cutoffDate": "2017-04-23 19:00:00.0", 
+        "v+": "2.0", 
+        "outcomes": [
+          "v"
+        ], 
+        "h+": "2.9", 
+        "sport": "HKY", 
+        "t": null, 
+        "visitor": "WASHINGTON", 
+        "home": "TORONTO", 
+        "h": "2.1"
+      }, 
+      "7": {
+        "v": "1.65", 
+        "cutoffDate": "2017-04-23 13:00:00.0", 
+        "v+": "2.1", 
+        "outcomes": [
+          "v+", 
+          "v", 
+          "t"
+        ], 
+        "h+": "2.4", 
+        "sport": "BBL", 
+        "t": "2.5", 
+        "visitor": "HOUSTON", 
+        "home": "TAMPA BAY", 
+        "h": "1.75"
+      }, 
+      "6": {
+        "v": "1.35", 
+        "cutoffDate": "2017-04-23 13:00:00.0", 
+        "v+": "1.7", 
+        "outcomes": [
+          "h+", 
+          "h"
+        ], 
+        "h+": "3.0", 
+        "sport": "BBL", 
+        "t": "2.8", 
+        "visitor": "CHICAGO-C", 
+        "home": "CINCINNATI", 
+        "h": "2.3"
+      }, 
+      "9": {
+        "v": "1.75", 
+        "cutoffDate": "2017-04-23 13:30:00.0", 
+        "v+": "2.4", 
+        "outcomes": [
+          "v+", 
+          "v"
+        ], 
+        "h+": "2.1", 
+        "sport": "BBL", 
+        "t": "2.5", 
+        "visitor": "BOSTON", 
+        "home": "BALTIMORE", 
+        "h": "1.65"
+      }, 
+      "8": {
+        "v": "1.65", 
+        "cutoffDate": "2017-04-23 13:30:00.0", 
+        "v+": "2.1", 
+        "outcomes": [
+          "h+", 
+          "h"
+        ], 
+        "h+": "2.4", 
+        "sport": "BBL", 
+        "t": "2.5", 
+        "visitor": "ATLANTA", 
+        "home": "PHILADELPHIA", 
+        "h": "1.75"
+      }, 
+      "18": {
+        "v": "1.55", 
+        "cutoffDate": "2017-04-23 16:00:00.0", 
+        "v+": "1.95", 
+        "outcomes": [
+          "v+", 
+          "v"
+        ], 
+        "h+": "2.6", 
+        "sport": "BBL", 
+        "t": "2.6", 
+        "visitor": "LOS ANGELES-D", 
+        "home": "ARIZONA", 
+        "h": "1.9"
+      }, 
+      "51": {
+        "v": "1.05", 
+        "cutoffDate": "2017-04-24 14:45:00.0", 
+        "v+": null, 
+        "outcomes": [
+          "v"
+        ], 
+        "h+": null, 
+        "sport": "SCR", 
+        "t": "6.25", 
+        "visitor": "AS ROMA", 
+        "home": "PESCARA", 
+        "h": "9.95"
+      }, 
+      "13": {
+        "v": "1.55", 
+        "cutoffDate": "2017-04-23 14:00:00.0", 
+        "v+": "1.95", 
+        "outcomes": [
+          "v+", 
+          "v"
+        ], 
+        "h+": "2.6", 
+        "sport": "BBL", 
+        "t": "2.6", 
+        "visitor": "ST. LOUIS", 
+        "home": "MILWAUKEE", 
+        "h": "1.9"
+      }, 
+      "65": {
+        "v": "4.0", 
+        "cutoffDate": "2017-04-24 23:59:00.0", 
+        "v+": null, 
+        "outcomes": [], 
+        "h+": null, 
+        "visitor": "EINTRACHT FRANKFURT", 
+        "t": "3.2", 
+        "h": "1.7", 
+        "home": "MONCHENGLADBACH", 
+        "sport": "SCR"
+      }, 
+      "12": {
+        "v": "1.6", 
+        "cutoffDate": "2017-04-23 14:00:00.0", 
+        "v+": "2.0", 
+        "outcomes": [
+          "v+", 
+          "v"
+        ], 
+        "h+": "2.5", 
+        "sport": "BBL", 
+        "t": "2.5", 
+        "visitor": "DETROIT", 
+        "home": "MINNESOTA", 
+        "h": "1.8"
+      }, 
+      "17": {
+        "v": "2.0", 
+        "cutoffDate": "2017-04-23 16:00:00.0", 
+        "v+": "2.6", 
+        "outcomes": [
+          "v+", 
+          "v"
+        ], 
+        "h+": "1.9", 
+        "sport": "BBL", 
+        "t": "2.6", 
+        "visitor": "SEATTLE", 
+        "home": "OAKLAND", 
+        "h": "1.5"
+      }, 
+      "59": {
+        "v": "2.6", 
+        "cutoffDate": "2017-04-23 15:30:00.0", 
+        "v+": "3.6", 
+        "outcomes": [
+          "t"
+        ], 
+        "h+": "3.2", 
+        "sport": "BKL", 
+        "t": "2.1", 
+        "visitor": "HOUSTON", 
+        "home": "OKLAHOMA CITY", 
+        "h": "2.5"
+      }, 
+      "58": {
+        "v": "1.9", 
+        "cutoffDate": "2017-04-23 13:00:00.0", 
+        "v+": "2.5", 
+        "outcomes": [
+          "t"
+        ], 
+        "h+": "4.2", 
+        "sport": "BKL", 
+        "t": "2.55", 
+        "visitor": "CLEVELAND", 
+        "home": "INDIANA", 
+        "h": "3.4"
+      }, 
+      "11": {
+        "v": "1.3", 
+        "cutoffDate": "2017-04-23 14:00:00.0", 
+        "v+": "1.6", 
+        "outcomes": [
+          "h+", 
+          "h"
+        ], 
+        "h+": "3.3", 
+        "sport": "BBL", 
+        "t": "2.8", 
+        "visitor": "CLEVELAND", 
+        "home": "CHICAGO-S", 
+        "h": "2.5"
+      }, 
+      "10": {
+        "v": "1.85", 
+        "cutoffDate": "2017-04-23 13:30:00.0", 
+        "v+": "2.6", 
+        "outcomes": [
+          "h", 
+          "t"
+        ], 
+        "h+": "2.1", 
+        "sport": "BBL", 
+        "t": "2.15", 
+        "visitor": "NEW YORK-Y", 
+        "home": "PITTSBURGH", 
+        "h": "1.6"
+      }, 
+      "39": {
+        "v": "1.8", 
+        "cutoffDate": "2017-04-23 10:00:00.0", 
+        "v+": null, 
+        "outcomes": [
+          "t"
+        ], 
+        "h+": null, 
+        "sport": "SCR", 
+        "t": "3.0", 
+        "visitor": "MANCHESTER CITY", 
+        "home": "ARSENAL", 
+        "h": "3.8"
+      }, 
+      "38": {
+        "v": "1.95", 
+        "cutoffDate": "2017-04-23 09:30:00.0", 
+        "v+": null, 
+        "outcomes": [
+          "h"
+        ], 
+        "h+": null, 
+        "sport": "SCR", 
+        "t": "3.0", 
+        "visitor": "BAYERN LEVERKUSEN", 
+        "home": "SC FREIBURG", 
+        "h": "3.3"
+      }, 
+      "15": {
+        "v": "1.65", 
+        "cutoffDate": "2017-04-23 15:00:00.0", 
+        "v+": "2.1", 
+        "outcomes": [
+          "h+", 
+          "h"
+        ], 
+        "h+": "2.4", 
+        "sport": "BBL", 
+        "t": "2.5", 
+        "visitor": "SAN FRANCISCO", 
+        "home": "COLORADO", 
+        "h": "1.75"
+      }, 
+      "48": {
+        "v": "2.2", 
+        "cutoffDate": "2017-04-23 15:15:00.0", 
+        "v+": null, 
+        "outcomes": [
+          "v"
+        ], 
+        "h+": null, 
+        "sport": "SCR", 
+        "t": "3.0", 
+        "visitor": "MONACO", 
+        "home": "LYON", 
+        "h": "2.8"
+      }, 
+      "14": {
+        "v": "2.5", 
+        "cutoffDate": "2017-04-23 15:00:00.0", 
+        "v+": "3.3", 
+        "outcomes": [
+          "h+", 
+          "h"
+        ], 
+        "h+": "1.6", 
+        "sport": "BBL", 
+        "t": "2.8", 
+        "visitor": "KANSAS CITY", 
+        "home": "TEXAS", 
+        "h": "1.3"
+      }, 
+      "16": {
+        "v": "1.6", 
+        "cutoffDate": "2017-04-23 15:30:00.0", 
+        "v+": "2.0", 
+        "outcomes": [
+          "v+", 
+          "v"
+        ], 
+        "h+": "2.5", 
+        "sport": "BBL", 
+        "t": "2.5", 
+        "visitor": "TORONTO", 
+        "home": "LA ANAHEIM", 
+        "h": "1.8"
+      }, 
+      "33": {
+        "v": "2.15", 
+        "cutoffDate": "2017-04-23 09:00:00.0", 
+        "v+": null, 
+        "outcomes": [
+          "v"
+        ], 
+        "h+": null, 
+        "sport": "SCR", 
+        "t": "2.8", 
+        "visitor": "TORINO", 
+        "home": "CHIEVO", 
+        "h": "3.1"
+      }, 
+      "54": {
+        "v": "1.95", 
+        "cutoffDate": "2017-04-24 23:59:00.0", 
+        "v+": null, 
+        "outcomes": [], 
+        "h+": null, 
+        "visitor": "CF MALAGA", 
+        "t": "3.0", 
+        "h": "3.3", 
+        "home": "GRANADA CF", 
+        "sport": "SCR"
+      }, 
+      "31": {
+        "v": "1.25", 
+        "cutoffDate": "2017-04-23 06:30:00.0", 
+        "v+": null, 
+        "outcomes": [
+          "t"
+        ], 
+        "h+": null, 
+        "sport": "SCR", 
+        "t": "4.5", 
+        "visitor": "NAPOLI", 
+        "home": "US SASSUOLO", 
+        "h": "8.0"
+      }, 
+      "56": {
+        "v": "3.1", 
+        "cutoffDate": "2017-04-24 23:59:00.0", 
+        "v+": null, 
+        "outcomes": [], 
+        "h+": null, 
+        "visitor": "EA GUINGAMP", 
+        "t": "2.8", 
+        "h": "2.15", 
+        "home": "ANGERS SCO", 
+        "sport": "SCR"
+      }, 
+      "37": {
+        "v": "1.4", 
+        "cutoffDate": "2017-04-23 09:15:00.0", 
+        "v+": null, 
+        "outcomes": [
+          "v"
+        ], 
+        "h+": null, 
+        "sport": "SCR", 
+        "t": "3.8", 
+        "visitor": "MANCHESTER UTD", 
+        "home": "BURNLEY", 
+        "h": "6.0"
+      }, 
+      "36": {
+        "v": "4.5", 
+        "cutoffDate": "2017-04-23 09:00:00.0", 
+        "v+": null, 
+        "outcomes": [
+          "h"
+        ], 
+        "h+": null, 
+        "sport": "SCR", 
+        "t": "3.5", 
+        "visitor": "CAGLIARI", 
+        "home": "UDINESE", 
+        "h": "1.55"
+      }, 
+      "53": {
+        "v": "3.4", 
+        "cutoffDate": "2017-04-24 23:59:00.0", 
+        "v+": null, 
+        "outcomes": [], 
+        "h+": null, 
+        "visitor": "ESPANYOL BARCELONA", 
+        "t": "3.0", 
+        "h": "1.9", 
+        "home": "SPORTING GIJON", 
+        "sport": "SCR"
+      }, 
+      "34": {
+        "v": "9.0", 
+        "cutoffDate": "2017-04-23 09:00:00.0", 
+        "v+": null, 
+        "outcomes": [
+          "v"
+        ], 
+        "h+": null, 
+        "sport": "SCR", 
+        "t": "5.0", 
+        "visitor": "EMPOLI", 
+        "home": "AC MILAN", 
+        "h": "1.2"
+      }, 
+      "19": {
+        "v": "1.75", 
+        "cutoffDate": "2017-04-23 16:30:00.0", 
+        "v+": "2.4", 
+        "outcomes": [
+          "v+", 
+          "v"
+        ], 
+        "h+": "2.1", 
+        "sport": "BBL", 
+        "t": "2.5", 
+        "visitor": "MIAMI", 
+        "home": "SAN DIEGO", 
+        "h": "1.65"
+      }, 
+      "55": {
+        "v": "8.5", 
+        "cutoffDate": "2017-04-24 23:59:00.0", 
+        "v+": null, 
+        "outcomes": [], 
+        "h+": null, 
+        "visitor": "SOUTHAMPTON", 
+        "t": "4.5", 
+        "h": "1.25", 
+        "home": "CHELSEA", 
+        "sport": "SCR"
+      }, 
+      "32": {
+        "v": "2.6", 
+        "cutoffDate": "2017-04-23 09:00:00.0", 
+        "v+": null, 
+        "outcomes": [
+          "t"
+        ], 
+        "h+": null, 
+        "sport": "SCR", 
+        "t": "2.8", 
+        "visitor": "OGC NICE", 
+        "home": "FC TOULOUSE", 
+        "h": "2.5"
+      }, 
+      "57": {
+        "v": "8.0", 
+        "cutoffDate": "2017-04-24 23:59:00.0", 
+        "v+": null, 
+        "outcomes": [], 
+        "h+": null, 
+        "visitor": "VILLARREAL", 
+        "t": "4.5", 
+        "h": "1.25", 
+        "home": "ATLETICO MADRID", 
+        "sport": "SCR"
+      }, 
+      "50": {
+        "v": "2.6", 
+        "cutoffDate": "2017-04-23 18:00:00.0", 
+        "v+": null, 
+        "outcomes": [
+          "h"
+        ], 
+        "h+": null, 
+        "sport": "SCR", 
+        "t": "2.8", 
+        "visitor": "COLORADO", 
+        "home": "MINNESOTA", 
+        "h": "2.5"
+      }
+    }
+  }, 
+  "2535": {
+    "date": 1493092800000, 
+    "games": {
+      "35": {
+        "v": "3.2", 
+        "cutoffDate": "2017-04-25 13:30:00.0", 
+        "v+": null, 
+        "outcomes": [], 
+        "h+": null, 
+        "h": "2.0", 
+        "t": "3.0", 
+        "visitor": "ESPANYOL BARCELONA", 
+        "home": "SPORTING GIJON", 
+        "sport": "SCR"
+      }, 
+      "48": {
+        "v": "1.25", 
+        "cutoffDate": "2017-04-26 15:30:00.0", 
+        "v+": null, 
+        "outcomes": [], 
+        "h+": null, 
+        "h": "8.0", 
+        "t": "4.5", 
+        "visitor": "REAL MADRID", 
+        "home": "DEPORTIVO LA CORUNA", 
+        "sport": "SCR"
+      }, 
+      "46": {
+        "v": "1.45", 
+        "cutoffDate": "2017-04-26 15:00:00.0", 
+        "v+": null, 
+        "outcomes": [], 
+        "h+": null, 
+        "h": "5.5", 
+        "t": "3.7", 
+        "visitor": "TOTTENHAM HOT", 
+        "home": "CRYSTAL PALACE", 
+        "sport": "SCR"
+      }, 
+      "47": {
+        "v": "8.5", 
+        "cutoffDate": "2017-04-26 15:00:00.0", 
+        "v+": null, 
+        "outcomes": [], 
+        "h+": null, 
+        "h": "1.25", 
+        "t": "4.5", 
+        "visitor": "MONACO", 
+        "home": "PARIS ST. GERMAIN", 
+        "sport": "SCR"
+      }, 
+      "44": {
+        "v": "3.4", 
+        "cutoffDate": "2017-04-26 14:45:00.0", 
+        "v+": null, 
+        "outcomes": [], 
+        "h+": null, 
+        "h": "1.9", 
+        "t": "3.0", 
+        "visitor": "SUNDERLAND", 
+        "home": "MIDDLESBROUGH", 
+        "sport": "SCR"
+      }, 
+      "45": {
+        "v": "5.5", 
+        "cutoffDate": "2017-04-26 14:45:00.0", 
+        "v+": null, 
+        "outcomes": [], 
+        "h+": null, 
+        "h": "1.45", 
+        "t": "3.7", 
+        "visitor": "BORUSSIA DORTMUND", 
+        "home": "BAYERN MUNICH", 
+        "sport": "SCR"
+      }, 
+      "42": {
+        "v": "2.6", 
+        "cutoffDate": "2017-04-26 14:30:00.0", 
+        "v+": null, 
+        "outcomes": [], 
+        "h+": null, 
+        "h": "2.5", 
+        "t": "2.8", 
+        "visitor": "REAL SOCIEDAD", 
+        "home": "VALENCIA", 
+        "sport": "SCR"
+      }, 
+      "43": {
+        "v": "5.5", 
+        "cutoffDate": "2017-04-26 14:45:00.0", 
+        "v+": null, 
+        "outcomes": [], 
+        "h+": null, 
+        "h": "1.45", 
+        "t": "3.7", 
+        "visitor": "LEICESTER CITY", 
+        "home": "ARSENAL", 
+        "sport": "SCR"
+      }, 
+      "40": {
+        "v": "8.0", 
+        "cutoffDate": "2017-04-25 15:30:00.0", 
+        "v+": null, 
+        "outcomes": [], 
+        "h+": null, 
+        "h": "1.25", 
+        "t": "4.5", 
+        "visitor": "VILLARREAL", 
+        "home": "ATLETICO MADRID", 
+        "sport": "SCR"
+      }, 
+      "41": {
+        "v": "5.0", 
+        "cutoffDate": "2017-04-26 14:30:00.0", 
+        "v+": null, 
+        "outcomes": [], 
+        "h+": null, 
+        "h": "1.5", 
+        "t": "3.6", 
+        "visitor": "LAS PALMAS", 
+        "home": "LEGANES", 
+        "sport": "SCR"
+      }, 
+      "5": {
+        "v": "1.5", 
+        "cutoffDate": "2017-04-25 18:00:00.0", 
+        "v+": "1.9", 
+        "outcomes": [], 
+        "h+": "2.6", 
+        "h": "2.0", 
+        "t": "2.6", 
+        "visitor": "HOUSTON", 
+        "home": "CLEVELAND", 
+        "sport": "BBL"
+      }, 
+      "7": {
+        "v": "1.9", 
+        "cutoffDate": "2017-04-25 19:00:00.0", 
+        "v+": "2.5", 
+        "outcomes": [], 
+        "h+": "2.15", 
+        "h": "1.65", 
+        "t": "2.1", 
+        "visitor": "MIAMI", 
+        "home": "PHILADELPHIA", 
+        "sport": "BBL"
+      }, 
+      "6": {
+        "v": "2.1", 
+        "cutoffDate": "2017-04-25 19:00:00.0", 
+        "v+": "2.7", 
+        "outcomes": [], 
+        "h+": "1.85", 
+        "h": "1.45", 
+        "t": "2.7", 
+        "visitor": "TAMPA BAY", 
+        "home": "BALTIMORE", 
+        "sport": "BBL"
+      }, 
+      "9": {
+        "v": "1.9", 
+        "cutoffDate": "2017-04-25 19:00:00.0", 
+        "v+": "2.6", 
+        "outcomes": [], 
+        "h+": "1.95", 
+        "h": "1.55", 
+        "t": "2.6", 
+        "visitor": "NEW YORK-Y", 
+        "home": "BOSTON", 
+        "sport": "BBL"
+      }, 
+      "8": {
+        "v": "1.55", 
+        "cutoffDate": "2017-04-25 19:00:00.0", 
+        "v+": "2.0", 
+        "outcomes": [], 
+        "h+": "2.7", 
+        "h": "1.95", 
+        "t": "2.2", 
+        "visitor": "CHICAGO-C", 
+        "home": "PITTSBURGH", 
+        "sport": "BBL"
+      }, 
+      "13": {
+        "v": "1.65", 
+        "cutoffDate": "2017-04-25 20:00:00.0", 
+        "v+": "2.1", 
+        "outcomes": [], 
+        "h+": "2.4", 
+        "h": "1.75", 
+        "t": "2.5", 
+        "visitor": "MINNESOTA", 
+        "home": "TEXAS", 
+        "sport": "BBL"
+      }, 
+      "12": {
+        "v": "1.8", 
+        "cutoffDate": "2017-04-25 19:30:00.0", 
+        "v+": "2.5", 
+        "outcomes": [], 
+        "h+": "2.0", 
+        "h": "1.6", 
+        "t": "2.5", 
+        "visitor": "CINCINNATI", 
+        "home": "MILWAUKEE", 
+        "sport": "BBL"
+      }, 
+      "11": {
+        "v": "1.85", 
+        "cutoffDate": "2017-04-25 19:00:00.0", 
+        "v+": "2.6", 
+        "outcomes": [], 
+        "h+": "2.1", 
+        "h": "1.6", 
+        "t": "2.15", 
+        "visitor": "ATLANTA", 
+        "home": "NEW YORK-M", 
+        "sport": "BBL"
+      }, 
+      "10": {
+        "v": "1.65", 
+        "cutoffDate": "2017-04-25 19:00:00.0", 
+        "v+": "2.1", 
+        "outcomes": [], 
+        "h+": "2.4", 
+        "h": "1.75", 
+        "t": "2.5", 
+        "visitor": "SEATTLE", 
+        "home": "DETROIT", 
+        "sport": "BBL"
+      }, 
+      "39": {
+        "v": "3.2", 
+        "cutoffDate": "2017-04-25 15:00:00.0", 
+        "v+": null, 
+        "outcomes": [], 
+        "h+": null, 
+        "h": "2.0", 
+        "t": "3.0", 
+        "visitor": "EA GUINGAMP", 
+        "home": "ANGERS SCO", 
+        "sport": "SCR"
+      }, 
+      "38": {
+        "v": "3.6", 
+        "cutoffDate": "2017-04-25 14:45:00.0", 
+        "v+": null, 
+        "outcomes": [], 
+        "h+": null, 
+        "h": "1.85", 
+        "t": "3.0", 
+        "visitor": "EINTRACHT FRANKFURT", 
+        "home": "MONCHENGLADBACH", 
+        "sport": "SCR"
+      }, 
+      "15": {
+        "v": "1.95", 
+        "cutoffDate": "2017-04-25 20:15:00.0", 
+        "v+": "2.7", 
+        "outcomes": [], 
+        "h+": "2.0", 
+        "h": "1.55", 
+        "t": "2.2", 
+        "visitor": "TORONTO", 
+        "home": "ST. LOUIS", 
+        "sport": "BBL"
+      }, 
+      "14": {
+        "v": "1.45", 
+        "cutoffDate": "2017-04-25 20:00:00.0", 
+        "v+": "1.9", 
+        "outcomes": [], 
+        "h+": "2.8", 
+        "h": "2.15", 
+        "t": "2.3", 
+        "visitor": "KANSAS CITY", 
+        "home": "CHICAGO-S", 
+        "sport": "BBL"
+      }, 
+      "17": {
+        "v": "2.0", 
+        "cutoffDate": "2017-04-25 21:30:00.0", 
+        "v+": "2.6", 
+        "outcomes": [], 
+        "h+": "1.9", 
+        "h": "1.5", 
+        "t": "2.6", 
+        "visitor": "SAN DIEGO", 
+        "home": "ARIZONA", 
+        "sport": "BBL"
+      }, 
+      "16": {
+        "v": "1.6", 
+        "cutoffDate": "2017-04-25 20:30:00.0", 
+        "v+": "2.0", 
+        "outcomes": [], 
+        "h+": "2.5", 
+        "h": "1.8", 
+        "t": "2.5", 
+        "visitor": "WASHINGTON", 
+        "home": "COLORADO", 
+        "sport": "BBL"
+      }, 
+      "19": {
+        "v": "1.2", 
+        "cutoffDate": "2017-04-25 22:15:00.0", 
+        "v+": "1.45", 
+        "outcomes": [], 
+        "h+": "4.1", 
+        "h": "2.85", 
+        "t": "2.55", 
+        "visitor": "LOS ANGELES-D", 
+        "home": "SAN FRANCISCO", 
+        "sport": "BBL"
+      }, 
+      "54": {
+        "v": "5.5", 
+        "cutoffDate": "2017-04-25 21:00:00.0", 
+        "v+": "7.6", 
+        "outcomes": [], 
+        "h+": "1.6", 
+        "h": "1.3", 
+        "t": "3.7", 
+        "visitor": "MEMPHIS", 
+        "home": "SAN ANTONIO", 
+        "sport": "BKL"
+      }, 
+      "37": {
+        "v": "8.0", 
+        "cutoffDate": "2017-04-25 14:45:00.0", 
+        "v+": null, 
+        "outcomes": [], 
+        "h+": null, 
+        "h": "1.25", 
+        "t": "4.5", 
+        "visitor": "SOUTHAMPTON", 
+        "home": "CHELSEA", 
+        "sport": "SCR"
+      }, 
+      "36": {
+        "v": "1.95", 
+        "cutoffDate": "2017-04-25 14:30:00.0", 
+        "v+": null, 
+        "outcomes": [], 
+        "h+": null, 
+        "h": "3.3", 
+        "t": "3.0", 
+        "visitor": "CF MALAGA", 
+        "home": "GRANADA CF", 
+        "sport": "SCR"
+      }, 
+      "53": {
+        "v": "4.0", 
+        "cutoffDate": "2017-04-25 20:00:00.0", 
+        "v+": "5.0", 
+        "outcomes": [], 
+        "h+": "2.2", 
+        "h": "1.6", 
+        "t": "3.0", 
+        "visitor": "OKLAHOMA CITY", 
+        "home": "HOUSTON", 
+        "sport": "BKL"
+      }, 
+      "55": {
+        "v": "3.1", 
+        "cutoffDate": "2017-04-25 22:30:00.0", 
+        "v+": "3.8", 
+        "outcomes": [], 
+        "h+": "2.8", 
+        "h": "2.2", 
+        "t": "2.3", 
+        "visitor": "UTAH", 
+        "home": "LOS ANGELES-C", 
+        "sport": "BKL"
+      }, 
+      "18": {
+        "v": "1.8", 
+        "cutoffDate": "2017-04-25 22:00:00.0", 
+        "v+": "2.5", 
+        "outcomes": [], 
+        "h+": "2.0", 
+        "h": "1.6", 
+        "t": "2.5", 
+        "visitor": "OAKLAND", 
+        "home": "LA ANAHEIM", 
+        "sport": "BBL"
       }
     }
   }
