@@ -50,6 +50,9 @@ for event in events:
             data[eventId]["games"][gameId]["h"] = game.get("odds").get("h")
             data[eventId]["games"][gameId]["h+"] = game.get("odds").get("hplus")
 
+            #if game.get("sport") == "BBL":
+                #stats = get_mlb_stats()
+
             print "Added: " + json.dumps(data[eventId]["games"][gameId])
             eventsAdded += 1
 
