@@ -45,4 +45,11 @@ outcomes (ie. H and V) consider the example below:
  H+   H    T    V    V+
 2.1  1.6  5.0  1.3  1.8  (odds difference = 0.3)
 ```
+
+<html>
 <iframe width="900" height="800" frameborder="0" scrolling="no" src="//plot.ly/~nikperi/10.embed"></iframe>
+<div>
+    <a href="https://plot.ly/~nikperi/10/?share_key=bOq70CVPvsqPFqwiVMnb5O" target="_blank" title="win-percentage" style="display: block; text-align: center;"><img src="https://plot.ly/~nikperi/10.png?share_key=bOq70CVPvsqPFqwiVMnb5O" alt="win-percentage" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+    <script data-plotly="nikperi:10" sharekey-plotly="bOq70CVPvsqPFqwiVMnb5O" src="https://plot.ly/embed.js" async></script>
+</div>
+</html>
