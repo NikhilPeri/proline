@@ -15,6 +15,8 @@ for event in data.values():
     for game in event["games"].values():
         if len(game["outcomes"]) == 0:
             continue
+        if game["sport"] == "SCR":
+            continue
         diff = 0
         lower_won = False
         if float(game["v"]) > float(game["h"]):

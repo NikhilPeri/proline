@@ -10,9 +10,9 @@
 #### Collect Data
 The `update.py` script hits the following two OLG endpoints to fetch payouts and outcomes:
 
-** payouts ->** proline.ca/olg-proline-services/rest/api/proline/events/all.jsonp?callback=_jqjsp&__timenow__
+**payouts ->** proline.ca/olg-proline-services/rest/api/proline/events/all.jsonp?callback=_jqjsp&__timenow__
 
-** outcomes ->** proline.ca/olg-proline-services/rest/api/proline/results/all.jsonp?callback=_jqjsp&__timenow__
+**outcomes ->** proline.ca/olg-proline-services/rest/api/proline/results/all.jsonp?callback=_jqjsp&__timenow__
 
 This data is collected daily and stored in the following json format:
 ```
@@ -35,3 +35,14 @@ This data is collected daily and stored in the following json format:
       ...
 }
 ```
+
+#### Summary
+The following is a distribution of game win percentages across all odds differences where the lower payout won.
+what is the odds differece?
+it is the differnce in payout between the two opposite game
+outcomes (ie. H and V) consider the example below:
+```
+ H+   H    T    V    V+
+2.1  1.6  5.0  1.3  1.8  (odds difference = 0.3)
+```
+<iframe width="900" height="800" frameborder="0" scrolling="no" src="//plot.ly/~nikperi/10.embed"></iframe>
