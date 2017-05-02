@@ -10,7 +10,7 @@ highlight:
 If we apply [Poker Pot Odds](https://en.wikipedia.org/wiki/Pot_odds)
 to these payouts and odd, we must be able to pick the outcome of a card
 at least 1/3 of the time to be profitable.  Considering each game to be
-an independant event we must be able to predict it with a certianty of
+an independant event we must be able to predict each game with a certianty of
 only 69.33% to break even in the worst case scenario.  
 
 ### Initial Findings
@@ -69,21 +69,23 @@ Stay tuned for more events containing the following json data
    ...
    "mlb_standings": {
      "home": {
-       "rank": <league ranking>
-       "win_percentage": <percentage of home wins>,
-       "last_five_won": <number of games won in last 10>,
-       "last_five_loss": <number of games lost in last 10>,
-       "last_ten_won": <number of games won in last 10>,
-       "last_ten_loss": <number of games lost in last 10>,
+       "rank": <league ranking>,
+       "points_scored_per_game": <average points scored per game>,
+       "points_allowed_per_game": <average points allowed per game>,
+       "win_percentage": <percentage of games won>,
+       "location_win_percentage": <percentage of home games won>,
+       "last_five_won_percentage": <percentage won in last 5>,
+       "last_ten_won_percentage": <percentage won in last 10>,
        "streak": <current consecutive wins or losses (+ve for wins -ve for losses)>
      },
      "visitor": {
-       "rank": <league ranking>
-       "win_percentage": <percentage of away wins>,
-       "last_five_won": <number of games won in last 10>,
-       "last_five_loss": <number of games lost in last 10>,
-       "last_ten_won": <number of games won in last 10>,
-       "last_ten_loss": <number of games lost in last 10>,
+       "rank": <league ranking>,
+       "points_scored_per_game": <average points scored per game>,
+       "points_allowed_per_game": <average points allowed per game>,
+       "win_percentage": <percentage of games won>,
+       "location_win_percentage": <percentage of away games won>,
+       "last_five_won_percentage": <percentage won in last 5>,
+       "last_ten_won_percentage": <percentage won in last 10>,
        "streak": <current consecutive wins or losses (+ve for wins -ve for losses)>
      }
    }

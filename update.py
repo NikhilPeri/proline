@@ -1,7 +1,41 @@
 import urllib
+import urllib2
 import time
 import json
 
+# MLB Data
+MLB_ENDPOINT = "https://erikberg.com/mlb/standings.json"
+req = urllib2.Request(MLB_ENDPOINT)
+req.add_header( "User-Agent", "MyRobot/1.0 (https://github.com/NikhilPeri/proline)")
+
+response = urllib2.urlopen(req).read().decode('utf-8')
+
+mlb_standings = json.loads(response).get("standing")
+
+mlb_data = {}
+for standing in mlb_standings:
+    team = standing.get("first_name").upper()
+    mlb_data[team] = {}
+    mlb_data[team]["rank"] = standing["rank"]
+    mlb_data[team]["points_scored_per_game"] = float(standing["points_scored_per_game"])
+    mlb_data[team]["points_allowed_per_game"] = float(standing["points_allowed_per_game"])
+    mlb_data[team]["win_percentage"] = float(standing["win_percentage"])
+    mlb_data[team]["home_win_percentage"] = float(standing["home_won"]) / (float(standing["home_won"]) + float(standing["home_lost"]))
+    mlb_data[team]["visitor_win_percentage"] = float(standing["away_won"]) / (float(standing["away_won"]) + float(standing["away_lost"]))
+
+    last_five_w = float(standing["last_five"].split("-")[0])
+    last_five_l = float(standing["last_five"].split("-")[1])
+    mlb_data[team]["last_five_won_percentage"] = float(last_five_w) / float(last_five_w + last_five_l)
+
+    last_ten_w = float(standing["last_ten"].split("-")[0])
+    last_ten_l = float(standing["last_ten"].split("-")[1])
+    mlb_data[team]["last_ten_won_percentage"] = float(last_ten_w) / float(last_ten_w + last_ten_l)
+
+    streak = -1 if standing["streak_type"].upper() == "LOSS" else 1
+    streak = streak * int(0 if standing["streak_total"] == "-" else standing["streak_total"])
+    mlb_data[team]["streak"] = streak
+
+# OLG Data
 OLG_EVENTS_ENDPOINT = "https://www.proline.ca/olg-proline-services/rest/api/proline/events/all.jsonp?callback=_jqjsp"
 OLG_RESULTS_ENDPOINT = "https://www.proline.ca/olg-proline-services/rest/api/proline/results/all.jsonp?callback=_jqjsp"
 
@@ -14,7 +48,8 @@ response = response.replace(');', '', 1)
 
 events = json.loads(response).get("response").get("events").get("eventList")
 
-eventsAdded = 0;
+eventsAdded = 0
+mlbEventsAdded = 0
 for event in events:
     eventId = event.get("listNumber")
     #listNumber
@@ -50,19 +85,38 @@ for event in events:
             data[eventId]["games"][gameId]["h"] = game.get("odds").get("h")
             data[eventId]["games"][gameId]["h+"] = game.get("odds").get("hplus")
 
-            #if game.get("sport") == "BBL":
-                #stats = get_mlb_stats()
+            if game.get("sport") == "BBL":
+                home_stats = mlb_data[data[eventId]["games"][gameId]["home"].upper()]
+                data[eventId]["mlb_standings"]["home"]["rank"] = home_stats["rank"]
+                data[eventId]["mlb_standings"]["home"]["points_scored_per_game"] = home_stats["points_scored_per_game"]
+                data[eventId]["mlb_standings"]["home"]["points_allowed_per_game"] = home_stats["points_allowed_per_game"]
+                data[eventId]["mlb_standings"]["home"]["win_percentage"] = home_stats["win_percentage"]
+                data[eventId]["mlb_standings"]["home"]["location_win_percentage"] = home_stats["home_win_percentage"]
+                data[eventId]["mlb_standings"]["home"]["last_five_won_percentage"] = home_stats["last_five_won_percentage"]
+                data[eventId]["mlb_standings"]["home"]["last_ten_won_percentage"] = home_stats["last_ten_won_percentage"]
+                data[eventId]["mlb_standings"]["home"]["streak"] = home_stats["streak"]
 
-            print "Added: " + json.dumps(data[eventId]["games"][gameId])
+                visitor_stats = mlb_data[data[eventId]["games"][gameId]["visitor"].upper()]
+                data[eventId]["mlb_standings"]["visitor"]["rank"] = visitor_stats["rank"]
+                data[eventId]["mlb_standings"]["visitor"]["points_scored_per_game"] = visitor_stats["points_scored_per_game"]
+                data[eventId]["mlb_standings"]["visitor"]["points_allowed_per_game"] = visitor_stats["points_allowed_per_game"]
+                data[eventId]["mlb_standings"]["visitor"]["win_percentage"] = visitor_stats["win_percentage"]
+                data[eventId]["mlb_standings"]["visitor"]["location_win_percentage"] = visitor_stats["visitor_win_percentage"]
+                data[eventId]["mlb_standings"]["visitor"]["last_five_won_percentage"] = visitor_stats["last_five_won_percentage"]
+                data[eventId]["mlb_standings"]["visitor"]["last_ten_won_percentage"] = visitor_stats["last_ten_won_percentage"]
+                data[eventId]["mlb_standings"]["visitor"]["streak"] = visitor_stats["streak"]
+
+                mlbEventsAdded += 1
+
             eventsAdded += 1
 
 print "Events Added: ", eventsAdded
+print "MLB Events Added: ", mlbEventsAdded
 
 response = urllib.urlopen(OLG_RESULTS_ENDPOINT + "&_" + str(int(time.time()*1000))).read()
 response = response.replace('_jqjsp(', '', 1)
 response = response.replace(');', '', 1)
 
-print response
 results = json.loads(response).get("response").get("results").get("resultList")
 
 eventsUpdated = 0
