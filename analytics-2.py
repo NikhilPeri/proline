@@ -39,68 +39,99 @@ for event in data.values():
         if diff > 5:
             print json.dumps(game, indent=4, sort_keys=True)
 
-win_set = {"<0.1>": 0, "<0.2>": 0, "<0.3>": 0, "<0.4>": 0, "<0.5>": 0, "<0.6>": 0, "<0.7>": 0, "<0.8>": 0, "<0.9>": 0, "<1-2>":0, "<2+>": 0}
-loss_set = {"<0.1>": 0, "<0.2>": 0, "<0.3>": 0, "<0.4>": 0, "<0.5>": 0, "<0.6>": 0, "<0.7>": 0, "<0.8>": 0, "<0.9>": 0, "<1-2>":0, "<2+>": 0}
+win_set = {"<0.1>": 0, "<0.2>": 0, "<0.3>": 0, "<0.4>": 0, "<0.5>": 0, "<0.6>": 0, "<0.7>": 0, "<0.8>": 0, "<0.9>": 0, "<1-1.5>":0, "<1.5-2>":0, "<2+>": 0}
+loss_set = {"<0.1>": 0, "<0.2>": 0, "<0.3>": 0, "<0.4>": 0, "<0.5>": 0, "<0.6>": 0, "<0.7>": 0, "<0.8>": 0, "<0.9>": 0, "<1-1.5>":0, "<1.5-2>":0, "<2+>": 0}
+total_set = {"<0.1>": 0, "<0.2>": 0, "<0.3>": 0, "<0.4>": 0, "<0.5>": 0, "<0.6>": 0, "<0.7>": 0, "<0.8>": 0, "<0.9>": 0, "<1-1.5>":0, "<1.5-2>":0, "<2+>": 0}
 
 for diff, win_count in lower_diff_won.iteritems():
     if diff < 0.1:
         win_set["<0.1>"] += win_count
+        total_set["<0.1>"] += 1
     elif diff < 0.2:
         win_set["<0.2>"] += win_count
+        total_set["<0.2>"] += 1
     elif diff < 0.3:
         win_set["<0.3>"] += win_count
+        total_set["<0.3>"] += 1
     elif diff < 0.4:
         win_set["<0.4>"] += win_count
+        total_set["<0.4>"] += 1
     elif diff < 0.5:
         win_set["<0.5>"] += win_count
+        total_set["<0.6>"] += 1
     elif diff < 0.6:
         win_set["<0.6>"] += win_count
+        total_set["<0.6>"] += 1
     elif diff < 0.7:
         win_set["<0.7>"] += win_count
+        total_set["<0.7>"] += 1
     elif diff < 0.8:
         win_set["<0.8>"] += win_count
+        total_set["<0.8>"] += 1
     elif diff < 0.9:
         win_set["<0.9>"] += win_count
+        total_set["<0.9>"] += 1
+    elif diff < 1.5:
+        win_set["<1-1.5>"] += win_count
+        total_set["<1-1.5>"] += 1
     elif diff < 2:
-        win_set["<1-2>"] += win_count
+        win_set["<1.5-2>"] += win_count
+        total_set["<1.5-2>"] += 1
     else:
         win_set["<2+>"] += win_count
+        total_set["<2+>"] += 1
 
 for diff, loss_count in lower_diff_lost.iteritems():
     if diff < 0.1:
         loss_set["<0.1>"] += loss_count
+        total_set["<0.1>"] += 1
     elif diff < 0.2:
         loss_set["<0.2>"] += loss_count
+        total_set["<0.2>"] += 1
     elif diff < 0.3:
         loss_set["<0.3>"] += loss_count
+        total_set["<0.3>"] += 1
     elif diff < 0.4:
         loss_set["<0.4>"] += loss_count
+        total_set["<0.4>"] += 1
     elif diff < 0.5:
         loss_set["<0.5>"] += loss_count
+        total_set["<0.5>"] += 1
     elif diff < 0.6:
         loss_set["<0.6>"] += loss_count
+        total_set["<0.6>"] += 1
     elif diff < 0.7:
         loss_set["<0.7>"] += loss_count
+        total_set["<0.7>"] += 1
     elif diff < 0.8:
         loss_set["<0.8>"] += loss_count
+        total_set["<0.8>"] += 1
     elif diff < 0.9:
         loss_set["<0.9>"] += loss_count
+        total_set["<0.9>"] += 1
+    elif diff < 1.5:
+        loss_set["<1-1.5>"] += loss_count
+        total_set["<1-1.5>"] += 1
     elif diff < 2:
-        loss_set["<1-2>"] += loss_count
+        loss_set["<1.5-2>"] += loss_count
+        total_set["<1.5-2>"] += 1
     else:
         loss_set["<2+>"] += loss_count
+        total_set["<2+>"] += 1
 
 diff_probability = {}
 
 for diff, num_wins in win_set.iteritems():
     if num_wins == 0 and loss_set[diff] == 0:
         diff_probability[diff] = 0
+        total_set[diff] = 0
         continue
     diff_probability[diff] = float(num_wins)/float(num_wins+loss_set[diff])
-print diff_probability
+    total_set[diff] = num_wins + loss_set[diff]
 
+difference_buckets = ["<0.1>", "<0.2>", "<0.3>", "<0.4>", "<0.5>", "<0.6>", "<0.7>", "<0.8>", "<0.9>", "<1-1.5>","<1.5-2>", "<2+>"]
 probability = go.Bar(
-    x=["<0.1>", "<0.2>", "<0.3>", "<0.4>", "<0.5>", "<0.6>", "<0.7>", "<0.8>", "<0.9>", "<1-2>", "<2+>"],
+    x=difference_buckets,
     y=[diff_probability["<0.1>"],
         diff_probability["<0.2>"],
         diff_probability["<0.3>"],
@@ -110,10 +141,50 @@ probability = go.Bar(
         diff_probability["<0.7>"],
         diff_probability["<0.8>"],
         diff_probability["<0.9>"],
-        diff_probability["<1-2>"],
+        diff_probability["<1-1.5>"],
+        diff_probability["<1.5-2>"],
         diff_probability["<2+>"]]
 )
 
 plotly.tools.set_credentials_file(username='nikperi', api_key='julq605nwdbroEtAnbOw')
-
 py.iplot([probability], filename='win-percentage')
+
+trace1 = go.Bar(
+    x=difference_buckets,
+    y=[win_set["<0.1>"],
+        win_set["<0.2>"],
+        win_set["<0.3>"],
+        win_set["<0.4>"],
+        win_set["<0.5>"],
+        win_set["<0.6>"],
+        win_set["<0.7>"],
+        win_set["<0.8>"],
+        win_set["<0.9>"],
+        win_set["<1-1.5>"],
+        win_set["<1.5-2>"],
+        win_set["<2+>"]],
+    name='Lower Payout Won'
+)
+trace2 = go.Bar(
+
+    x=difference_buckets,
+    y=[loss_set["<0.1>"],
+        loss_set["<0.2>"],
+        loss_set["<0.3>"],
+        loss_set["<0.4>"],
+        loss_set["<0.5>"],
+        loss_set["<0.6>"],
+        loss_set["<0.7>"],
+        loss_set["<0.8>"],
+        loss_set["<0.9>"],
+        loss_set["<1-1.5>"],
+        loss_set["<1.5-2>"],
+        loss_set["<2+>"]],
+    name='Lower Payout Lost'
+)
+d = [trace1, trace2]
+layout = go.Layout(
+    barmode='stack'
+)
+
+py.iplot(go.Figure(data=d, layout=layout), filename='win-absolute')
