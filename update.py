@@ -15,6 +15,22 @@ mlb_standings = json.loads(response).get("standing")
 mlb_data = {}
 for standing in mlb_standings:
     team = standing.get("first_name").upper()
+    if team == "NEW YORK":
+        if standing.get("last_name") == "Yankees":
+            team = "NEW YORK-Y"
+        elif standing.get("last_name") == "Mets":
+            team = "NEW YORK-M"
+    elif team == "CHICAGO":
+        if standing.get("last_name") == "Cubs":
+            team = "CHICAGO-C"
+        elif standing.get("last_name") == "White Sox":
+            team = "CHICAGO-S"
+    elif team == "LOS ANGELES":
+        if standing.get("last_name") == "Angels":
+            team = "LA ANAHEIM"
+        elif standing.get("last_name") == "Dodgers":
+            team = "LOS ANGELES-D"
+    
     mlb_data[team] = {}
     mlb_data[team]["rank"] = standing["rank"]
     mlb_data[team]["points_scored_per_game"] = float(standing["points_scored_per_game"])
@@ -86,6 +102,8 @@ for event in events:
             data[eventId]["games"][gameId]["h+"] = game.get("odds").get("hplus")
 
             if game.get("sport") == "BBL":
+                data[eventId]["mlb_standings"] = {}
+                data[eventId]["mlb_standings"]["home"] = {}
                 home_stats = mlb_data[data[eventId]["games"][gameId]["home"].upper()]
                 data[eventId]["mlb_standings"]["home"]["rank"] = home_stats["rank"]
                 data[eventId]["mlb_standings"]["home"]["points_scored_per_game"] = home_stats["points_scored_per_game"]
@@ -96,6 +114,7 @@ for event in events:
                 data[eventId]["mlb_standings"]["home"]["last_ten_won_percentage"] = home_stats["last_ten_won_percentage"]
                 data[eventId]["mlb_standings"]["home"]["streak"] = home_stats["streak"]
 
+                data[eventId]["mlb_standings"]["visitor"] = {}
                 visitor_stats = mlb_data[data[eventId]["games"][gameId]["visitor"].upper()]
                 data[eventId]["mlb_standings"]["visitor"]["rank"] = visitor_stats["rank"]
                 data[eventId]["mlb_standings"]["visitor"]["points_scored_per_game"] = visitor_stats["points_scored_per_game"]
