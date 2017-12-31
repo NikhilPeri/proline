@@ -5,7 +5,7 @@ data = JSON.parse(File.read('data/events.json'))
 
 data = data.values.sort_by do |event|
   event['date']
-end.sample(30)
+end
 
 outcomes = data.map do |event|
   games_by_diff  = event['games'].values.sort_by do |game|
@@ -27,12 +27,11 @@ outcomes = data.map do |event|
       game['h'].to_f
     end
   end
-
+  diffs = selected_games.map { |g| (g['h'].to_f - g['v'].to_f).abs}
   if win
-    payouts.reduce(:+)
+    { 1 => diffs.reduce(:+) / diffs.count }
   else
-    -1
+    { -1 => diffs.reduce(:+) / diffs.count }
   end
 end
 puts outcomes
-puts outcomes.reduce(0, :+)
