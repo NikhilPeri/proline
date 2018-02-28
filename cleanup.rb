@@ -8,19 +8,19 @@ new_data['data'] = data.values.map do |event|
   {
     'date' => event['date'],
     'games' => event['games'].values.map do |game|
-      {
-        'v' => game['v'].to_f,
-        'v+' => game['v+'].to_f,
-        't' => game['t'].to_f,
-        'h+' => game['h+'].to_f,
-        'h' => game['h'].to_f,
-        'cutoffDate' => game['cutoffDate'],
-        'outcomes' => game['outcomes'],
-        'visitor' => game['visitor'],
-        'home' => game['home'],
-        'sport' => game['sport'],
-      }
-    end
+        {
+          'v' => game['v'].to_f,
+          'v+' => game['v+'].to_f,
+          't' => game['t'].to_f,
+          'h+' => game['h+'].to_f,
+          'h' => game['h'].to_f,
+          'cutoffDate' => game['cutoffDate'],
+          'outcomes' => game['outcomes'],
+          'visitor' => game['visitor'].strip,
+          'home' => game['home'].strip,
+          'sport' => game['sport'],
+        }
+    end.compact
   }
 end
 
